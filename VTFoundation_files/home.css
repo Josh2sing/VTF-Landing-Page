@@ -279,6 +279,7 @@
 #my-pie-chart-container {
     align-items: center;
     font-size: 20px;
+    padding: 10px;
 }
 
 #my-pie-chart {
@@ -290,7 +291,8 @@
 
 #legenda {
     margin-left: 20px;
-    padding: 5px
+    padding: 5px;
+    margin-top: 2x0px;
 }
 
 .entry {

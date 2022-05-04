@@ -1358,6 +1358,9 @@ a {
     .cid-3 .item-content {
         padding: 1rem 0
     }
+    .cid-3 .row{
+        padding:1rem;
+    }
 }
 
 .cid-3 .mbr-section-title {
@@ -1383,12 +1386,7 @@ a {
 }
 
 .cid-4 {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    padding-bottom: 5rem;
-    padding-top: 2rem;
+    
 }
 .cid-4 .card{
     background-color: #FBFBFB;
@@ -1407,7 +1405,9 @@ a {
     border-radius: 7px;
 }
 .cid-4 .row {
-    align-items: center
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 .cid-4 .body-text
 {
@@ -1425,7 +1425,6 @@ a {
 }
 @media(max-width:991px) {
     .cid-4 .row {
-        flex-direction: column-reverse
     }
 
     .cid-4 .image-wrapper {
@@ -1523,6 +1522,9 @@ width: auto;
     .cid-5 .card-wrapper {
         padding: 4rem 2rem
     }
+    .cid-5 .review-block{
+        margin: 20px;
+    }
 }
 
 @media(max-width:992px) {
@@ -1556,7 +1558,20 @@ width: auto;
     justify-content: space-evenly;
     padding: 1rem;
 }
-
+.cid-6 p{
+    line-height: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+@media(max-width:768px) {
+    .cid-6{
+        padding-bottom: 0;
+    }
+    .cid-6 .about-text{
+        padding: 30px;
+        margin-bottom: 2rem;
+    }
+}
 .cid-7 {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -1614,7 +1629,11 @@ width: auto;
         margin-bottom: 2rem
     }
 }
-
+@media(max-width:767px) {
+    .cid-7 h2{
+        padding-left: 0;
+    }
+}
 .cid-7 .price-term {
     color: #6c758f
 }
@@ -1823,7 +1842,7 @@ width: auto;
 }
 .cid-7 h2
 {
-    padding-left: 475px;
+    padding-left: 470px;
     font-weight: 400;
     color:  #4288C8;
     padding-bottom: 3%;
@@ -1897,6 +1916,13 @@ width: auto;
         text-align: center;
         padding-top: 2rem;
         padding-bottom: 2rem
+    }
+    .cid-7 .row{
+        justify-content: center;
+    }
+    .cid-7 h2{
+        
+    padding-left: 110px;
     }
 }
 
@@ -2090,6 +2116,11 @@ width: auto;
     padding-top: 0;
     padding-bottom: 1rem;
 }
+@media(max-width:767px) {
+    .cid-9 .socials{
+        display: none;
+    }
+}
 .cid-9 .video{
     border-radius: 20px;
     padding-bottom: 3em;
@@ -2130,6 +2161,14 @@ width: auto;
         padding: 3rem
     }
     .cid-9 .contact-info .card{
+        display: none;
+    }
+    .cid-9 .video{
+        height: 300px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .cid-9 .title{
         display: none;
     }
 }
@@ -2232,6 +2271,9 @@ width: auto;
     padding-top: 75px;
     padding-bottom: 75px;
 }
+.cid-15 .contents{
+    justify-content: center;
+}
 .cid-15 .contact-info{
     font-size: 19px;
     
@@ -2249,9 +2291,6 @@ width: auto;
 }
 .cid-15 .contents{
     display: flex;
-}
-.cid-15 form{
-    width: 600px;
 }
 .cid-15 .h-captcha{
     padding-left: 1rem;
@@ -2275,6 +2314,9 @@ width: auto;
     .cid-15 .col-auto {
         margin: auto
     }
+    .cid-15 .contact-info{
+        display:none;
+    }
 }
 
 .cid-15 textarea {
@@ -2290,7 +2332,7 @@ width: auto;
     color: #000;
     transition: .4s;
     outline: none;
-    width: 600px;
+    width: 340px;
 }
 
 .cid-15 .form-control::-webkit-input-placeholder,
