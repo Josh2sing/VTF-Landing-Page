@@ -2117,6 +2117,46 @@ width: auto;
     color: #36187d
 }
 
+.cid-13 table{
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+
+}
+
+.cid-13 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.cid-13 .mid-border{
+    border-color: rgb(66, 136, 200, 0.2);
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: none;
+    border-bottom-style: none;
+    
+}
+.cid-13 .highlight{
+    background-color:rgb(66, 136, 200, 0.5)
+}
+.cid-13 p{
+    margin-top: auto;
+    margin-bottom: auto;
+    color:#044464;
+}
+.cid-13 .info{
+    font-size: small;
+}
+
+.cid-13 td .highlight{
+    color:#0196e3;
+    font-weight: 400;
+}
+.cid-13 td p{
+    font-size: small;
+    line-height: 1rem;
+}
 .cid-9 {
     padding-top: 0;
     padding-bottom: 1rem;
