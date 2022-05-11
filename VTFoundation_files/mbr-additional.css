@@ -2114,7 +2114,9 @@ width: auto;
 .cid-13 .img-container p{
     text-align: center;
 }
-
+.cid-13{
+    margin-top:2rem;
+}
 .cid-13 table{
     margin-left: auto;
     margin-right: auto;
@@ -2166,6 +2168,17 @@ width: auto;
 .cid-13 td p{
     font-size: small;
     line-height: 1rem;
+}
+@media(max-width:767px){
+    .cid-13 table{
+        width: 90%;
+    }
+    .cid-13 .btn{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 .cid-9 {
     padding-top: 0;
