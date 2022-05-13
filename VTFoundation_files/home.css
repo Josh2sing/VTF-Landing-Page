@@ -2,6 +2,10 @@
     margin-top: 4rem
 }
 
+#comm_img{
+    width:150%;
+}
+
 @media only screen and (max-width:600px) {
     .carousel-caption {
         height: 100px;
