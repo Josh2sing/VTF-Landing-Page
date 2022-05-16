@@ -1374,8 +1374,7 @@ a {
 }
 
 .cid-4  .cards{
-    padding-top: 10%;
-    width: 50%;
+    width: 30%;
 }
 .cid-4 h3{
     color:#0385c8;
@@ -1383,6 +1382,7 @@ a {
     padding: 1rem 2rem;
 }
 .cid-4 .card{
+    margin: 10px;
     background-color: #FBFBFB;
     display: flex;
     flex-direction: column;
@@ -1392,7 +1392,10 @@ a {
     position: relative;
     border-radius: 7px;
     width: 240px;
-    height: 390px;  
+    height: 400px;
+}
+.cid-4 a{
+
 }
 .cid-4 .card img
 {
@@ -1414,7 +1417,6 @@ a {
 }
 .cid-4 .text-wrapper
 {
-    margin-top: 5px;
     padding: 10px;
 }
 @media(max-width:991px) {
@@ -1425,6 +1427,9 @@ a {
 
     .cid-4 .card-wrapper {
         padding: 0 1rem
+    }
+    .cid-4 .cards{
+        width: 50%;
     }
 }
 
