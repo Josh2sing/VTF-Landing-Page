@@ -1392,10 +1392,10 @@ a {
     position: relative;
     border-radius: 7px;
     width: 240px;
-    height: 400px;
+    height: 300px;
 }
-.cid-4 a{
-
+.cid-4 .beg-card{
+    width: 460px;
 }
 .cid-4 .card img
 {
@@ -1411,12 +1411,13 @@ a {
     font-family: 'Open Sans';
     font-size: 10px;
     font-weight: normal;
-    margin-bottom: 70px;
     color: #868686;
     line-height: 15px;
+    padding-bottom: 5%;
 }
 .cid-4 .text-wrapper
 {
+    height: 100px;
     padding: 10px;
 }
 @media(max-width:991px) {
