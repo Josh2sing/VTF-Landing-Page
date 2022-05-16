@@ -1373,8 +1373,14 @@ a {
     display: block
 }
 
-.cid-4 {
-    
+.cid-4  .cards{
+    padding-top: 10%;
+    width: 50%;
+}
+.cid-4 h3{
+    color:#0385c8;
+    text-align: center;
+    padding: 1rem 2rem;
 }
 .cid-4 .card{
     background-color: #FBFBFB;
@@ -1412,8 +1418,6 @@ a {
     padding: 10px;
 }
 @media(max-width:991px) {
-    .cid-4 .row {
-    }
 
     .cid-4 .image-wrapper {
         margin-bottom: 2rem
@@ -1546,6 +1550,9 @@ width: auto;
     justify-content: space-evenly;
     padding: 4rem;
     margin-top: 1rem;
+}
+.cid-6 .card{
+    width: 100px;
 }
 .cid-6 p{
     margin-top: 35px;
@@ -1843,17 +1850,7 @@ width: auto;
     justify-content: space-between;
 }
 .cid-7 .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-
-    position: static;
-    width: 311px;
-    height: 378px;
-    left: 138px;
-    top: 10px;
+    width: 300px;
 }
 .cid-7 .title {
     padding: 0 2rem;
@@ -1868,7 +1865,6 @@ width: auto;
     padding: 15%;
 
     position: static;
-
     background: #f6f9f9;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
@@ -1957,9 +1953,8 @@ width: auto;
 .cid-8 .card-wrapper {
     overflow: visible;
     display: flex;
-    padding: 3rem 4rem;
+    padding: 1rem 2rem;
     border-radius: 3rem;
-    margin-bottom: 4rem
     
 }
 .cid-8 .card-img-wrapper
@@ -2103,18 +2098,18 @@ width: auto;
 }
 
 
-.cid-13 .img-container p{
+.cid-4 .img-container p{
     text-align: center;
 }
 .cid-13{
     margin-top:2rem;
 }
-.cid-13 table{
+.cid-4 table{
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 100%;
 }
-.cid-13 .mid-border{
+.cid-4 .mid-border{
     border-color: rgb(66, 136, 200, 0.2);
     border-left-style: solid;
     border-right-style: solid;
@@ -2122,21 +2117,21 @@ width: auto;
     border-bottom-style: none;
     
 }
-.cid-13 .highlight{
+.cid-4 .highlight{
     background-color:rgb(220, 228, 239);
 }
-.cid-13 p{
+.cid-4 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.cid-13 td:not(.info) p{
+.cid-4 td:not(.info) p{
 
     margin-top: auto;
     margin-bottom: auto;
 }
-.cid-13 .info{
+.cid-4 .info{
     font-size: small;
 }
-.cid-13 .btn{
+.cid-4 .btn{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 70%;
     margin-right: auto;
@@ -2144,20 +2139,20 @@ width: auto;
     display: block;
 }
 
-.cid-13 .highlight-adv{
+.cid-4 .highlight-adv{
     background-color:rgb(66, 136, 200, 0.5)
 
 }
-.cid-13 .table-img{
-    width:20px;
+.cid-4 .table-img{
+    width: 20px;
 }
-.cid-13 td img{
+.cid-4 td img{
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
-.cid-13 td p{
+.cid-4 td p{
     font-size: small;
     line-height: 1rem;
 }
@@ -2165,7 +2160,7 @@ width: auto;
     .cid-13 table{
         width: 90%;
     }
-    .cid-13 .btn{
+    .cid-4 .btn{
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 5px;
@@ -2390,6 +2385,9 @@ width: auto;
 .cid-15 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 27px;
+}
+.cid-15 a p{
+    color:#155ce0
 }
 .cid-15 p strong{
     font-family: bellota text, display;
