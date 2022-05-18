@@ -1410,11 +1410,11 @@ a {
 }
 .cid-4 .body-text
 {
-    font-family: 'Open Sans';
-    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
     font-weight: normal;
     color: #868686;
-    line-height: 15px;
+    line-height: 20px;
     padding-bottom: 5%;
 }
 .cid-4 .text-wrapper
@@ -1457,7 +1457,7 @@ a {
     color: #565656;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .cid-4 .mbr-text,
@@ -1468,6 +1468,9 @@ a {
 .cid-5 {
     padding: 4rem;
     justify-content: space-between;
+}
+.cid-5 img{
+    margin-bottom: .5rem;
 }
 .card-title
 {
@@ -1544,9 +1547,11 @@ width: auto;
     font-size: 20px;
 }
 
-.cid-5 .card-text {
+.cid-5 p {
     color: rgb(104, 104, 104);
-    font-family: 'Open Sans';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: small;
+    line-height: 1.2rem;
 }
 
 .cid-5 .mbr-section-subtitle {
@@ -2121,14 +2126,10 @@ width: auto;
     margin-right: auto;
     border-collapse: separate;
     border-spacing: 10px 0px;
+    background-color: transparent;
 }
 
-.cid-4:not(.mid-border){
-    box-shadow: 1px 0px 1px black;
-}
-.cid-4 .highlight{
-    background-color:rgba(222, 222, 222, 0.321);
-}
+
 .cid-4 .title{
     text-align:center;
     font-size: 30px;
@@ -2141,9 +2142,7 @@ width: auto;
     filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(155deg) brightness(95%) contrast(80%);
 
 }
-.cid-4 .info{
-    background-color: rgba(207, 207, 207, 0.126);
-}
+
 .cid-4 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -2178,6 +2177,28 @@ width: auto;
     font-size: 12px;
     line-height: 1.1rem;
 }
+
+.cid-4 td{
+    padding: 1em;
+    background: rgb(255, 255, 255);
+}
+
+.cid-4 td:last-child {
+    box-shadow: 0 0.5rem 0.5em rgba(0, 0, 0, 0.4);
+
+    position: relative;
+    z-index: 2;
+  }
+  .cid-4 td:nth-child(2) {
+    box-shadow: 0 0.5rem 0.5em rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 2;
+  }
+  .cid-4 td:first-child{
+    box-shadow: 0 0.5rem 0.5em rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 2;
+  }
 @media(max-width:767px){
     .cid-4 table{
         width: 80%;
