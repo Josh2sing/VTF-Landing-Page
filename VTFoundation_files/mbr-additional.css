@@ -1520,9 +1520,9 @@ a {
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    padding: 42px;
+    padding: 2rem;
+    padding-top: 5rem;
 
     position: static;
     width: 440px;
