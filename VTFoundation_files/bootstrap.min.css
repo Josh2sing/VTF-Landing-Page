@@ -6027,6 +6027,7 @@ a.close.disabled {
   -ms-flex-pack: center;
   justify-content: center;
   width: 15%;
+  height:85%;
   color: #fff;
   text-align: center;
   opacity: 0.5;
