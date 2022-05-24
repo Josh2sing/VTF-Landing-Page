@@ -177,6 +177,9 @@ img {
     background-color: #3a77af;
     color: white;
 }
+.closed:hover{
+    background-color:gray
+}
 @-webkit-keyframes fade {
     from {
         opacity: .4

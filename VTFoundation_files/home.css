@@ -296,8 +296,15 @@
     border-radius: 50%;
     width: 250px;
     height: 250px;
+   
 }
-
+#my-pie-chart p{
+    padding:5rem;
+    padding-left: 5.3rem;
+    padding-top: 6.5rem;
+    font-size: 1.5rem;
+    color: white;
+}
 #legenda {
     margin-left: 20px;
     padding: 5px;
