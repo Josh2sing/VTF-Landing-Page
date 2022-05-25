@@ -14,13 +14,22 @@
 #social{
     scroll-margin-top: 120px;
 }
-#mid_serv_cont{
-    margin-left: 120px;
+@media(min-width:1080px)
+{
+    #mid_serv_cont{
+        margin-left:120px;
+
+    }
 }
 @media(max-width:767px){
     #mid_serv_cont{
         margin-left:0px;
     }
+    #comm_container {
+        margin-left: 0px;
+    }
+}
+@media(max-width:767px){
     #comm_container {
         margin-left: 0px;
     }

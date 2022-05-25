@@ -1364,13 +1364,19 @@ a {
     transform: scale(1.05)
 }
 
-
+@media(max-width:415px){
+    
+    .service-img{
+        display: none;
+    }
+}
 
 @media(max-width:767px) {
     .cid-3 .item-wrapper {
         border-radius: 2rem
     }
 }
+
 
 .cid-3 .item-content {
     padding: 1.5rem 1rem
