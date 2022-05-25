@@ -1267,7 +1267,9 @@ a {
     max-height: 60vh;
     background-color: #f8fbfc
 }
-
+.cid-2 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .cid-2 a{
     color: white;
 }
@@ -1276,7 +1278,7 @@ a {
 }
 .cid-2 .carousel-caption
 {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.75);
     height: fit-content;
 }
 
@@ -1313,6 +1315,11 @@ a {
 }
 .cid-3 p{
     width: 340px;
+    font-weight: 400;
+    color: rgb(74, 74, 74);
+}
+.cid-3 h3{
+    font-weight: 400;
 }
 .cid-3 .item:focus,
 .cid-3 span:focus {
@@ -1389,6 +1396,7 @@ a {
     .cid-3 .row{
         padding:1rem;
     }
+    #
 }
 
 .cid-3 .mbr-section-title {
