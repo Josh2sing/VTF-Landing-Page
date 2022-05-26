@@ -1594,7 +1594,7 @@ width: auto;
 
 .cid-5 .row {
     margin: 0 -2rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
