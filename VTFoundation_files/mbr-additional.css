@@ -2329,7 +2329,7 @@ width: auto;
     padding: 0;
 }
 .cid-9 h3{
-    margin-left: 2rem;
+    margin-right: 4rem;
     text-align: center;
     color:rgb(66, 136, 200);
 }
@@ -2340,7 +2340,7 @@ width: auto;
 }
 
 .cid-9 .card-wrapper {
-    margin-left: 3rem;
+    margin-right: 5rem;
     display: flex;
     justify-content: center;
     border-radius: 3rem;
