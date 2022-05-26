@@ -32,6 +32,8 @@
   <script charset="utf-8"
     src="./VTFoundation_files/moment_timeline.55634fd8bf871f86dbe537f50a41349e.js.download"></script>
   <script charset="utf-8" src="./VTFoundation_files/timeline.2002b66aa236ee3e1e6728119a7c4b98.js.download"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script>
     window.addEventListener("message", async (event) => {
       if (event.data && event.data.sender === "sabre") {
@@ -144,19 +146,19 @@
     </div>
   </section>
   <section class="features7 cid-3" id="services">
-    <div class = "service-info row">
+    <div class = "row">
       <div class="service-container ">
-        <div class="service-img">
-          <img src="./VTFoundation_files/EDU.png">
+        <div class="service-img"  id="edu_img">
+          <img src="./VTFoundation_files/education_img.png">
         </div>
         <div class="service-text">
           <h3 class="service-header">Education</h3>
           <p>Trainings, Workshops, technical projects and much more...</p>
          </div>
       </div>
-      <div class="service-container" id="mid_serv_cont">
+      <div class="service-container">
         <div class="service-img" id="mid_img">
-          <img src="./VTFoundation_files/INTERN.png" id="education-img">
+          <img src="./VTFoundation_files/INTERN.png" >
         </div>
         <div class="service-text">
           <h3 class="service-header">Internships</h3>
@@ -164,11 +166,11 @@
          </div>
       </div>
       <div class="service-container">
-        <div class="service-img" >
-          <img src="./VTFoundation_files/COMM.png" id="comm_img">
+        <div class="service-img" id="comm_img">
+          <img src="./VTFoundation_files/community_img.png">
         </div>
         <div class="service-text" id="comm_container">
-          <h3 class="service-header">Community Services</h3>
+          <h3 class="service-header">Services for non-profits</h3>
           <p>Logistics, digital design, board governance services to other communities</p>
          </div>
       </div>
@@ -266,7 +268,7 @@
         </tr>
         <tr class="highlight" >
           <td class="mid-border "><img src="./VTFoundation_files/remove.png" class="table-img"></td>
-          <td class="">Interview Required</td>
+          <td class=""><p>Interview Required</p></td>
         </tr>
         <tr >
           <td class="mid-border"><img src="./VTFoundation_files/remove.png" class="table-img"></td>
@@ -347,7 +349,7 @@
     </div>
   </section>
   <section class="team2 cid-7" id="our-team">
-    <div class="container ">
+    <div class="container">
       <h3><strong>Our Team</strong></h3>
       <div class="row">
         <div class="card">
@@ -360,7 +362,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card ">
           <div class="card-wrapper ">
             <a href="https://www.linkedin.com/in/mallory-vega-07419811a/" target="_blank"><img
                 src="./VTFoundation_files/MVega6 (3).png" id="malloryCard" alt="Mallory Vega"></a>
@@ -370,7 +372,7 @@
             </div>
           </div>
         </div>
-        <div class="card">
+        <div class="card ">
           <div class="card-wrapper ">
             <img src="./VTFoundation_files/Carolyn Aetos.png" alt="Carolyn Aetos">
             <div class="card-box ">
@@ -379,7 +381,7 @@
             </div>
           </div>
         </div>
-      </div>
+            </div>
     </div>
   </section>
   <section class="clients1 cid-8 " id="partners">
@@ -438,7 +440,7 @@
                   <th><a href="https://www.facebook.com/VirtuallyTestingFoundation/?ref=page_internal"
                       target="_blank"><img src="./VTFoundation_files/facebook (1).png" style=" width: 40px; "><br></a>
                   </th>
-                  <th><a href="https://virtuallytestingfoundation.org/" target="_blank"><img
+                  <th><a href="https://www.twitch.tv/vtfoundation" target="_blank"><img
                         src="./VTFoundation_files/twitch (1).png" style=" width: 40px; "><br></a></th>
                   <th><a href="https://twitter.com/VTFoundation" target="_blank"><img
                         src="./VTFoundation_files/twitter (1).png" style=" width: 40px; "><br></a></th>
@@ -524,14 +526,11 @@
                     style="display: none;"></textarea><textarea id="h-captcha-response-0ebbkpf5bmpi"
                     name="h-captcha-response" style="display: none;"></textarea></div>
                 <br>
-                <div class="btn-container"><button type="submit" class="btn btn-submit">Submit</button></div>
+                <div class="btn-container"><button type="submit" class="btn">Submit</button></div>
                 
                 </div>
-                
               </form>
               </div>
-              
-
           </div>
         </div>
       </div>
@@ -614,7 +613,6 @@
     integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
     data-cf-beacon="{&quot;rayId&quot;:&quot;7017a7c35dee7afb&quot;,&quot;token&quot;:&quot;28043e70431949338b8cd3ce764ac0a0&quot;,&quot;version&quot;:&quot;2021.12.0&quot;,&quot;si&quot;:100}"
     crossorigin="anonymous"></script>
-
   <script src="./VTFoundation_files/api.js.download" async="" defer=""></script>
   <script src="./VTFoundation_files/web-jquery.min.js.download"></script>
   <script src="./VTFoundation_files/bootstrap.min.js(1).download"></script>
@@ -627,7 +625,6 @@
       }
     }
   </script>
-
 
  
 </body>

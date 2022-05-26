@@ -2,11 +2,8 @@
     margin-top: 4rem
 }
 
-#comm_img{
-    width:150%;
-}
 #mid_img{
-    width: 17%;
+    padding-top:5px;
 }
 #services, #internshipssec, #about{
     scroll-margin-top: 100px;
@@ -14,13 +11,7 @@
 #social{
     scroll-margin-top: 120px;
 }
-@media(min-width:1080px)
-{
-    #mid_serv_cont{
-        margin-left:120px;
 
-    }
-}
 @media(max-width:767px){
     #mid_serv_cont{
         margin-left:0px;
@@ -121,7 +112,7 @@
     }
 
     .carousel-caption p {
-        font-size: 20px;
+        font-size: 30px;
         padding-top: 20px
     }
 }
@@ -144,7 +135,7 @@
     }
 
     .carousel-caption p {
-        font-size: 25px;
+        font-size: 30px;
         padding-top: 20px
     }
 }

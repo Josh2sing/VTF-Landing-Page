@@ -1316,6 +1316,12 @@ a {
 .cid-3{
     padding: 1rem;
 }
+#edu_img{
+    padding-top:15px;
+}
+#comm_img{
+    padding-top:5px;
+}
 .cid-3 p{
     width: 340px;
     font-weight: 400;
@@ -1331,33 +1337,28 @@ a {
 
 .cid-3 .service-img
 {
-    padding-top: 15px;
+    height: auto;
 }
-.cid-3 .service-info
-{
-    display: flex;
-}
+
 .cid-3 .item {
     cursor: pointer;
     margin-bottom: 2rem
 }
-
+.cid-3 .row{
+    justify-content: center
+}
 .cid-3 .service-container
 {
-    width: 500px;
-    margin: auto;
-    padding: 10px;
     display: flex;
 }   
 
 .cid-3 .service-text
 {
     text-align: left;
-    padding: 5%;
+    padding: 15px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:rgb(105, 105, 105);
 }
-
 .cid-3 .item-wrapper {
     position: relative;
     padding: 1rem;
@@ -2226,8 +2227,8 @@ width: auto;
 .cid-4 table{
     margin-left: auto;
     margin-right: auto;
-    border-color:rgb(76, 122, 247, 0.5);
-    border-width: 1px;
+    border-color:rgb(247, 247, 247);
+    border-width: 5px;
     border-style: solid;
  }
 
@@ -2331,7 +2332,7 @@ width: auto;
     padding: 0;
 }
 .cid-9 h3{
-    margin-right: 4rem;
+    margin-left: 2rem;
     text-align: center;
     color:rgb(66, 136, 200);
 }
@@ -2342,9 +2343,9 @@ width: auto;
 }
 
 .cid-9 .card-wrapper {
+    margin-left: 3rem;
     display: flex;
     justify-content: center;
-    margin-right: 4rem;
     border-radius: 3rem;
 }
 
@@ -2558,8 +2559,10 @@ width: auto;
     opacity: .4
 }
 .cid-15 .btn {
-    padding: 1rem 3rem;
-    border-radius: 2rem
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
 }
 .cid-15 .btn-container{
     padding-left: 1rem;
