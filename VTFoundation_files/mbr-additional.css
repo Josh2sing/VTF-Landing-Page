@@ -1313,6 +1313,9 @@ a {
         background-color: #f8fbfc
     }
 }
+.cid-3{
+    padding: 1rem;
+}
 .cid-3 p{
     width: 340px;
     font-weight: 400;
@@ -1329,7 +1332,6 @@ a {
 .cid-3 .service-img
 {
     padding-top: 15px;
-    width: 20%;
 }
 .cid-3 .service-info
 {
@@ -2224,10 +2226,10 @@ width: auto;
 .cid-4 table{
     margin-left: auto;
     margin-right: auto;
-    border-collapse: separate;
-    border-spacing: 10px 0px;
-    background-color: transparent;
-}
+    border-color:rgb(76, 122, 247, 0.5);
+    border-width: 1px;
+    border-style: solid;
+ }
 
 
 .cid-4 .title{
@@ -2245,11 +2247,6 @@ width: auto;
 
 .cid-4 p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.cid-4 td:not(.info) p{
-
-    margin-top: auto;
-    margin-bottom: auto;
 }
 .cid-4 .btn{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -2290,25 +2287,7 @@ width: auto;
 .cid-4 .highlight > *{
     filter: brightness(95%);
 }
-.cid-4 .info{
-    background-color: rgb(241, 241, 241);
-}
-.cid-4 td:last-child {
-    box-shadow: 0 0.5rem 0.5em rgba(0, 0, 0, 0.4);
 
-    position: relative;
-    z-index: 2;
-  }
-  .cid-4 td:nth-child(2) {
-    box-shadow: 0 0.5rem 0.5em rgba(0, 0, 0, 0.4);
-    position: relative;
-    z-index: 2;
-  }
-  .cid-4 td:first-child{
-    box-shadow: 0 0.5rem 0.5em rgba(0, 0, 0, 0.4);
-    position: relative;
-    z-index: 2;
-  }
 @media(max-width:767px){
     .cid-4 table{
         width: 90%;
