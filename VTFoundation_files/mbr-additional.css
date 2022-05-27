@@ -48,10 +48,6 @@ body {
     font-size: 1.2rem;
     line-height: 1.5
 }
-.display-7 .message
-{
-    
-}
 .display-7>.mbr-iconfont {
     font-size: 1.5rem
 }
@@ -1399,7 +1395,6 @@ a {
     .cid-3 .row{
         padding:1rem;
     }
-    #
 }
 
 .cid-3 .mbr-section-title {
@@ -2799,4 +2794,7 @@ width: auto;
 .info-priv p{
     line-height: 1.3rem;
     font-size:large;
+}
+footer{
+    margin-bottom: 0;
 }
