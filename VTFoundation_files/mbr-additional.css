@@ -2077,7 +2077,8 @@ width: auto;
 @media(max-width:767px) {
     .cid-8 .card-wrapper {
         flex-direction: column;
-        padding: 2rem
+        padding: 2rem;
+        align-items: center;
     }
 }
 
@@ -2369,15 +2370,21 @@ width: auto;
     .cid-9 .tw-container{
         margin: auto;
     }
+    #left_frame{
+        width: 80%;
+    }
     #middle_frame{
         width: 80% !important;
-        margin: auto
+        margin: auto;
+        margin-top:1rem;
+        margin-bottom:1rem;
     }
     #right_frame{
         width: 80% !important;
         margin: auto
     }
 }
+
 
 .cid-9 .mbr-iconfont {
     font-size: 1.5rem;
@@ -2715,7 +2722,11 @@ width: auto;
 .cid-16 .mbr-text {
     color: #767676
 }
-
+@media(max-width:767px){
+    .cid-16 .img-container{
+        padding-left: 47%;
+    }
+}
 .cid-16 .links {
     color: #6c758f
 }
