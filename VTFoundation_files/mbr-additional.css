@@ -2331,7 +2331,6 @@ width: auto;
 }
 
 .cid-9 .row {
-    justify-content: center;
     display: block;
 }
 
@@ -2341,7 +2340,9 @@ width: auto;
     justify-content: center;
     border-radius: 3rem;
 }
-
+@media(max-width:1280px){
+    .cid-9 
+}
 @media(max-width:991px) {
     .cid-9 .card-wrapper {
         margin-bottom: 4rem
@@ -2369,6 +2370,8 @@ width: auto;
     }
     .cid-9 .tw-container{
         margin: auto;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     #left_frame{
         width: 80%;
@@ -2382,6 +2385,14 @@ width: auto;
     #right_frame{
         width: 80% !important;
         margin: auto
+    }
+}
+@media(min-width:767px) and (max-width:1300px){
+    #middle_frame{
+        display: none;
+    }
+    #left_frame{
+        width:40%
     }
 }
 
