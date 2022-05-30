@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: bellota text, display
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle
+}
+
+
+
+.service-header
+{
+    color:#4288C8;
+    font-weight: 600px;
+}
+
+
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto
+}
+
+.internship-type{
+    display: flex;
+}
+
+.internship-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: px;
+
+    position: static;
+    width: 180px;
+    height: 13px;
+    left: 21px;
+    top: 21px;
+    color:rgb(105, 105, 105);
+}
+
+
+.internship-text{
+    position: static;
+    width: 184px;
+    height: 136px;
+    left: 21px;
+    top: 39px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 14px;
+    color: #4288C8;
+}
+.internship-h
+{
+    font-size: 11px;
+    font-weight: 600;
+}
+.internship-btn
+{
+    border-radius: 8px;
+    background-color: #4288C8;
+    border: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 0.7rem;
+    font-family: 'Open Sans';
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 50%;
+    align-items: center
+}
+.tag-img
+{
+    width: 15px;
+}
+
+.about-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+    position: static;
+    width: 592px;
+    height: 504px;
+    left: 139px;
+    top: 99px;
+    position: static;
+    width: 572px;
+    height: 424px;
+    left: 10px;
+    top: 70px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #565656;
+}
+.about-head
+{
+    color:#4288C8;
+    font-weight: bold;
+    font-family: bellota text, display;
+    font-size: larger;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease
+}
+
+.active {
+    background-color: #717171
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s
+}
+.btn
+{
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #4288C8;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-size: small;
+    padding:5px;
+}
+.btn:hover
+{
+    background-color: #3a77af;
+    color: white;
+}
+.closed:hover{
+    background-color:gray
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .text {
+        font-size: 11px
+    }
+}
+
+.dropbtn {
+    background-color: #343a40;
+    color: #fff;
+    padding: .5rem;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 32px;
+    width: 85px;
+    margin-top: .2rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, .2);
+    z-index: 1
+}
+
+.dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    display: block
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+    display: block
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #707e8b
+}
