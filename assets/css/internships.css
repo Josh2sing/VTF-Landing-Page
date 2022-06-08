@@ -1,0 +1,76 @@
+.cid-1{
+    margin-bottom: 90px;
+}
+.cid-1 .dropbtn{
+    background-color: #5492d0;
+    color: #fff;
+    padding: 0.5rem;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border: none;
+    border-radius: 32px;
+    width: 85px;
+    margin-top: 0.2rem;
+}
+.cid-1 .dropbtn:hover{
+    background-color: #3d6d9d;
+}
+.testimonial{
+    margin: 1em;
+}
+.testimonial .title-container::before, .title-container::after{
+    content: " ";
+    flex: 1;
+    height: 7px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.testimonial p{
+    line-height: 1.5em;
+    font-size: 13px;
+    font-family: 'raleway';
+}
+.testimonial .colored{
+    color: rgb(104, 131, 254);
+}
+.testimonial .test-container{
+    border-radius: 10px;
+    padding:12px;
+    width: 300px;
+    height: 150px;
+    box-shadow: 1px 1px 5px rgb(0,0,0,0.7);
+}
+.positions{
+    font-family: 'Raleway';
+    
+}
+.positions{
+}
+.positions strong{
+    font-weight: bold;
+}
+.positions .comp-container .box{
+    justify-content: space-evenly;
+    padding: 1rem;
+    display: flex;
+}
+
+.positions .box .info{
+    display: none;
+}
+.positions .button-wrapper button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-width: 1.5px;
+    padding: 5px 15px 5px;
+}
+.positions .button-wrapper button:hover{
+    transition: .2s;
+    background-color: black;
+    color: white;
+}
+.positions .box div{
+    width: 200px;
+}
