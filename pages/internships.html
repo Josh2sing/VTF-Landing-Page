@@ -73,13 +73,16 @@
          
         </div>
     </section>
-    <section class="testimonial">
+    <section class="testimonial ">    
       <div class="test-container">
+          <img src="/assets/img/q1.png" style="width: 15px;" id="qm1">
           <p><strong>Joshua Singontiko | </strong><strong class="colored">Front-End Developer</strong></p>
           <p>"VTF has been my first experience into the professional world and has already given me sense of accomplishment and I am excited to dedicate myself to the organization everyday."</p>
-      </div>
+          <img src="/assets/img/q2.png" style="width: 15px;" id="qm2">
+        </div>
     </section>
     <section class="comparison">
+      <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
       <div class="main-container">
         <div class="button" id='button-container'>
         <div id='my-button' class="button-element">
@@ -88,29 +91,27 @@
         <p id='option2'>Advanced</p>
       </div>
       </div>
+      
       <div class="info-contianer">
-        <div class="box-container" id="box-container">
-        <div class="box info-1" onclick="document.getElementById('box2').style.display = "normal">
-          <h3>Beginner</h3>
-          <p id="p1">Understanding of English Fundamentals</p>
-          <p id="p2">Computer with internet connection</p>
-          <p id="p3">High School Diploma+</p>
-          <p id="p4">Flexible Hours</p>
-        </div>
-        <div class="box info-2" id="box2">
-            <p id="p5">Self Paced Projects</p>
-              <p id="p6">Microsoft Cybersecurity Course</p>
-              <p id="p7">Online Labs</p>
-            
+          <div class="box info-1" onclick="document.getElementById('box2').classList.remove('hidden')">
+            <h3>Beginner</h3>
+            <p id="p1">Understanding of English Fundamentals</p>
+            <p id="p2">Computer with internet connection</p>
+            <p id="p3">High School Diploma+</p>
+            <p id="p4">Flexible Hours</p>
+          </div>
+          <div class="box info-2 hidden" id="box2" onclick="document.getElementById('box3').classList.remove('hidden')">
+              <p id="p5">Self Paced Projects</p>
+                <p id="p6">Microsoft Cybersecurity Course</p>
+                <p id="p7">Online Labs</p>
+              
           </div>      
-          <div class="box info-3">
+          <div class="box info-3 hidden" id="box3">
             <p id="p8">Minimum Growth in Network Visibility</p>
             <p id="p9">Certificate of Completion</p>
             <p id="p10">Understanding of basic concepts</p>
             <a target="_blank" class="apply-container"><button class="apply-btn">Apply Now</button></a>
-          </div>  
-           
-        </div>  
+          </div>
       </div>
       <div class="info-text-wrapper">
         <div class="info-text"><p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p></div>

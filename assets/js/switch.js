@@ -54,8 +54,8 @@ button.addEventListener('click', function(){
     console.log('ON 2')
     document.getElementById("my-button").style.transform = "translateX(100px)"; 
     buttonState = false;
-    option1.innerText = 'option2'
-    option2.innerText = 'option1'
+    option1.innerText = 'Advanced'
+    option2.innerText = 'Beginner'
     option2.style.transform = "translateX(-100px)";
     where.innerHTML = 'Our Advanced Internships are for those looking to get the best education in the field of cybersecurity. Requirements include a Bachelor’s degree or above, advanced computer knowledge, English fluency, accountability and professionalism, the ability to create virtual machines, and an understanding of applications such as Slack, Discord, and GDrive. Upon completion, a tailored certificate will be given, along with a letter or reccomendation. There is also a 15 day probation period for the interns. An interview and college credit documentation is required.'
     buttonTrack.style.borderRadius = "0px 20px 20px 0px";
@@ -64,8 +64,8 @@ button.addEventListener('click', function(){
     console.log('ON 1')
     document.getElementById("my-button").style.transform = "translateX(0px)";
     buttonState = true;
-    option1.innerText = 'option1'
-    option2.innerText = 'option2'
+    option1.innerText = 'Beginner'
+    option2.innerText = 'Advanced'
     option2.style.transform = "translateX(0px)";
     where.innerHTML = 'Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.'
     buttonTrack.style.borderRadius = "20px 0px 0px 20px";

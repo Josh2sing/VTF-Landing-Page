@@ -17,7 +17,9 @@
     background-color: #3d6d9d;
 }
 .testimonial{
-    margin: 1em;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2rem;
 }
 .testimonial .title-container::before, .title-container::after{
     content: " ";
@@ -50,15 +52,15 @@
     align-items: center;
     width: 200px;
     height: 39px;
-    background: #B3728C;
+    background: #333E48;
     border-radius: 20px;
     
   }
   
-  .comparison  .button-element {
+  .comparison .button-element {
     width: 100px;
     height: 39px;
-    background: #40BFC1;
+    background: rgb(47, 98, 146);
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.14);
     border-radius: 20px 0px 0px 20px;
     display: flex;
@@ -68,31 +70,31 @@
   }
   
   #option1 {
+    padding-top: 15px;
     font-family: 'Raleway';
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.2px;
-    color: #fff;
+    color: white;
   }
   
   #option2 {
+    padding-top: 15px;
     font-family: 'Raleway';
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
     letter-spacing: 0.2px;
-    color: #723E53;
+    color: #ffffff;
     padding-left: 26px;
   }
-  .comparison .info-contianer{
-      display:flex;
-      justify-content: space-evenly;
-  }
-  .comparison .main-container {
+    .comparison .main-container {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .comparison .info-container{
   }
   .comparison .info-text-wrapper{
       width:10rem;
@@ -114,31 +116,45 @@
     font-size: 13px;
   }
   .comparison .info-1{
-      background-color: #333E48;
-      z-index: 9;
+    background-color: #333E48;
+    z-index: 9;
+    position: relative;
   }
   .comparison .info-2{
-    top: 230px;
+    top: 260px;
     background-color: #2F6292;
     border-radius: 30px;
     padding-top: 70px;
     height: 200px !important;
+    position: absolute;
     z-index: 8;
 }
+
 .comparison .info-3{
+    position: absolute;
     padding-top: 70px;
     background-color: #4288C8;
-    top: 380px;
+    top: 410px;
     height: 270px !important;
 }
 .comparison .box{
+    margin-top: 2rem;
+    left:25%;
     color: white;
     width: 380px;
     height: 240px;
     border-radius: 30px;
     position: absolute;
 }
-
+.comparison #info-p-m{
+    margin-top: 2rem;
+    font-family: 'Open Sans';
+    font-weight: 350;
+    line-height: 2rem;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+}
 .comparison .apply-btn{
     margin-left: 135px;
     width: 100px;
@@ -184,4 +200,26 @@
 }
 .positions .box div{
     width: 200px;
+}
+.title-wrapper h4{
+    color: #2F6292;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-wrapper h4::before, .title-wrapper h4::after{
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+#qm1{
+
+}
+#qm2{
+    position: absolute;
+    top:85%;
 }
