@@ -42,7 +42,7 @@
     box-shadow: 1px 1px 5px rgb(0,0,0,0.7);
 }
 .comparison{
-    height: 200vh;
+    height: 100vh;
 }
 .comparison .button {
     cursor: pointer;
@@ -124,14 +124,12 @@
     padding-top: 70px;
     height: 200px !important;
     z-index: 8;
-    display: none;
 }
 .comparison .info-3{
     padding-top: 70px;
     background-color: #4288C8;
     top: 380px;
     height: 270px !important;
-    display: none;
 }
 .comparison .box{
     color: white;
