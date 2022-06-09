@@ -41,11 +41,124 @@
     height: 150px;
     box-shadow: 1px 1px 5px rgb(0,0,0,0.7);
 }
+.comparison{
+    height: 200vh;
+}
+.comparison .button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 39px;
+    background: #B3728C;
+    border-radius: 20px;
+    
+  }
+  
+  .comparison  .button-element {
+    width: 100px;
+    height: 39px;
+    background: #40BFC1;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.14);
+    border-radius: 20px 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: all 0.3s;
+  }
+  
+  #option1 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #fff;
+  }
+  
+  #option2 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 0.2px;
+    color: #723E53;
+    padding-left: 26px;
+  }
+  .comparison .info-contianer{
+      display:flex;
+      justify-content: space-evenly;
+  }
+  .comparison .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .comparison .info-text-wrapper{
+      width:10rem;
+      outline:auto
+  }
+  .comparison h3{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: 'Raleway';
+      text-align: center;
+  }
+  .comparison .box p{
+    line-height: 1.5rem;
+    font-family: 'Raleway';
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    font-weight: 450px;
+    font-size: 13px;
+  }
+  .comparison .info-1{
+      background-color: #333E48;
+      z-index: 9;
+  }
+  .comparison .info-2{
+    top: 230px;
+    background-color: #2F6292;
+    border-radius: 30px;
+    padding-top: 70px;
+    height: 200px !important;
+    z-index: 8;
+    display: none;
+}
+.comparison .info-3{
+    padding-top: 70px;
+    background-color: #4288C8;
+    top: 380px;
+    height: 270px !important;
+    display: none;
+}
+.comparison .box{
+    color: white;
+    width: 380px;
+    height: 240px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.comparison .apply-btn{
+    margin-left: 135px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px !important;
+}
+.comparison .apply-btn:hover{
+    color: black;
+    background-color: white;
+}
 .positions{
     font-family: 'Raleway';
     
-}
-.positions{
 }
 .positions strong{
     font-weight: bold;
