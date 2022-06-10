@@ -121,21 +121,27 @@
     position: relative;
   }
   .comparison .info-2{
-    top: 260px;
+    top: 140px;
     background-color: #2F6292;
     border-radius: 30px;
     padding-top: 70px;
     height: 200px !important;
     position: absolute;
     z-index: 8;
+    transition: top 400ms;
 }
 
 .comparison .info-3{
     position: absolute;
     padding-top: 70px;
     background-color: #4288C8;
-    top: 410px;
+    top: 100px;
     height: 270px !important;
+    transition: top 400ms;
+}
+
+.comparison .info-1:hover + .info-2{
+    top: 150px;
 }
 .comparison .box{
     margin-top: 2rem;
@@ -216,6 +222,9 @@
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
+.under{
+
+}
 #qm1{
 
 }
@@ -223,3 +232,26 @@
     position: absolute;
     top:85%;
 }
+@keyframes moveDown {
+    0% /* (from) */ {
+      top: 140px;
+    }
+    100% /* (to) */ {
+      top: 260px;
+    }
+  }
+  @keyframes moveDown2 {
+    0% /* (from) */ {
+      top: 100px;
+    }
+    100% /* (to) */ {
+      top: 410px;
+    }
+  }
+  .ease1{
+    animation: moveDown 700ms ease-in 0s forwards;
+  }
+  .ease2{
+    animation: moveDown2 700ms ease-in 0s forwards;
+
+  }
