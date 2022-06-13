@@ -36,6 +36,7 @@ group2.push('Letter of Recommendation')
 //go into box-container, change each nth value of p to group1[index]
 
 function changeBeginner(){
+  document.getElementById("comp-1").innerHTML = "Advanced"
     for(i = 0; i <= 10; i++){
         index = 'p' + (i + 1);
         document.getElementById(index).innerHTML = group2[i];
@@ -43,6 +44,7 @@ function changeBeginner(){
 }
 
 function changeAdvanced(){
+  document.getElementById("comp-1").innerHTML = "Beginner"
     for(i = 0; i < 10; i++){
         index = 'p' + (i + 1);
         document.getElementById(index).innerHTML = group1[i];
