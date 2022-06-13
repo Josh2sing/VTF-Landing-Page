@@ -70,8 +70,15 @@
     </nav>
   </section>
     <section class="header">
-         
-        </div>
+      <div class="title-wrapper"><h2><strong>Internships at VTF</strong></h2>
+        <button class="apply-btn">Apply Now</button>
+        <button class="learn-btn apply-btn">Learn More</button>
+      </div>
+      <div class="img-container"><img src="/assets/img/interns.jpg" alt=""></div>
+      <div class="text-wrapper">
+        <p>Virtually Testing Foundation mission is to serve and provide on-the-job learning experience for everyone who are students, new professionals, or career changers in the cybersecurity community that will prepare them for the work force. VTF is neither selling any product/service nor client data.</p>
+
+      </div>
     </section>
     <section class="testimonial ">    
       <div class="test-container">
@@ -83,7 +90,7 @@
     </section>
     <section class="comparison">
       <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
-      <div class="main-container">
+      <div class="main-container row">
         <div class="button" id='button-container'>
         <div id='my-button' class="button-element">
           <p id='option1'>Beginner</p>
@@ -112,15 +119,17 @@
             <p id="p10">Understanding of basic concepts</p>
             <a target="_blank" class="apply-container"><button class="apply-btn">Apply Now</button></a>
           </div>
+          <div class="info-text-wrapper">
+            <div class="info-text"><p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p></div>
+          </div>
       </div>
-      <div class="info-text-wrapper">
-        <div class="info-text"><p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p></div>
-      </div>
+      
     </section>
     <section class="positions">
       <h7>Positions</h7>
       <div class="comp-container">
         <div class="box">
+          <div class="head" onclick="document.getElementById('pos-info-1').classList.remove('hidden'); ">
           <div class="title-wrapper">
             <p><strong>Beginner Level Internship</strong></p>
             <p>Technical</p>
@@ -134,7 +143,8 @@
             <p>Advanced</p>
           </div>
           <div class="button-wrapper"><button class="unavailable"><strong>Unavailable</strong></button></div>
-          <div class="info">
+          </div>
+          <div class="info hidden" id="pos-info-1">
               <h6>What We're Looking For</h6>
               <p>Virtually Testing Foundation is seeking a talented individual who possesses skills and experience in Front End Web Development. </p>
               <h6>Schedule</h6>
@@ -153,10 +163,11 @@
               <p>- Have the ability to use client input to create functional, creative and user-friendly web page</p>
               <p>- Have the ability to test and debug websites</p>
               <p>- Observant and able to remain focused on tasks for long periods of time.</p>
-              <button><strong>Apply Now</strong></button>
+              <button class="apply-btn">Apply Now</button>
             </div>
         </div>
         <div class="box">
+          <div class="head">
           <div class="title-wrapper">
             <p><strong>Front-End Developer</strong></p>
             <p>Technical</p>
@@ -170,9 +181,10 @@
             <p>Advanced</p>
           </div>
           <div class="button-wrapper"><button><strong>Apply Now</strong></button></div>
-          
+        </div>
         </div>
         <div class="box">
+          <div class="head">
           <div class="title-wrapper">
             <p><strong>Back-End Developer</strong></p>
             <p>Technical</p>
@@ -186,9 +198,10 @@
             <p>Advanced</p>
           </div>
           <div class="button-wrapper"><button><strong>Apply Now</strong></button></div>
-          
+        </div>
         </div>
         <div class="box">
+          <div class="head">
           <div class="title-wrapper">
             <p><strong>IAM Team</strong></p>
             <p>Management</p>
@@ -202,9 +215,10 @@
             <p>Advanced</p>
           </div>
           <div class="button-wrapper"><button><strong>Apply Now</strong></button></div>
-          
+        </div>
         </div>
         <div class="box">
+          <div class="head">
           <div class="title-wrapper">
             <p><strong>Spiceworks Team</strong></p>
             <p>Management</p>
@@ -220,6 +234,7 @@
           <div class="button-wrapper">
           <button><strong>Apply Now</strong></button></div>
         </div>
+      </div>
       </div>
     </section>
     <footer class="footer2 cid-16" style="background-color: #292929;" once="footers" id="footer">
