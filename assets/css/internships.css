@@ -240,7 +240,6 @@
 }
 .positions{
     font-family: 'Raleway';
-    
 }
 .positions strong{
     font-weight: bold;
@@ -266,6 +265,11 @@
     font-weight: bold;
 }
 .positions .box{
+    height: 75px;
+}
+.full{
+    height: 100% !important;
+    transition: height 1s !important;
 }
 .positions .box .head{
     justify-content: space-evenly;
@@ -274,7 +278,16 @@
     width: 100%;
     height: 100%;
     padding-bottom: 0 !important;
-    outline: auto;
+
+}
+.positions .box .head::after{
+    content:"";
+    background: #ccc;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    height: 50%;
+    width: 1px;
 }
 .positions .button-wrapper button{
     padding: 5px;
@@ -333,4 +346,16 @@
   .ease2{
     animation: moveDown2 700ms ease-in 0s forwards;
 
+  }
+  .icn-right{
+    width: 30px;
+    padding-bottom: 15px;
+    filter: opacity(60%);
+  }
+  .icn-right:hover{
+    transition: .4s;
+    filter: opacity(90%);
+  }
+  .rot{
+    transform: rotate(90);
   }
