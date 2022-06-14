@@ -188,7 +188,8 @@
     box-shadow: 1px 1px 5px rgb(0,0,0,0.7);
 }
 .comparison{
-    height: 110vh;
+    height: 80vh;
+    transition: height 700ms;
 }
 .comparison .button {
     cursor: pointer;
@@ -475,7 +476,10 @@
     padding: 2px
   }
   .icn-right{
-    width: 10px
+    padding-right: 10px;
+  }
+  .box .ease3 .icn-right{
+    display: none;
   }
 }
 .footer{
