@@ -487,9 +487,10 @@
   bottom: 0;
 }
 .title-wrapper h4{
+  margin-left: 10%;
     color: #2F6292;
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     align-items: center;
     text-align: center;
