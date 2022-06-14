@@ -1,3 +1,4 @@
+
 .cid-1{
     margin-bottom: 90px;
 }
@@ -40,7 +41,7 @@
     left: -30px;
 }
 .header .learn-btn{
-    left: 120px !important; 
+    left: 120px ; 
     background-color: rgb(0,0,0,0);
     color: white;
 }
@@ -79,35 +80,71 @@
 }
 @media(max-width: 980px){
   .header .title-wrapper{
-    padding: 5rem;
+    padding: 3rem;
   }
   .header img{
     height: 120%;
     width: auto;
   }
   .header h2{
-    margin-left: 15%;
+    margin-left: 5%;
   }
   .header img{
     left: 50%;
   }
   .header h2{
-    font-size: calc(100%);
+    font-size: 30px;
+  }
+  header .apply-btn{
+    left: -70px;
+  }
+  .header .learn-btn{
+    left: 80px ;
   }
 }
-@media(max-width: 740px){
+@media(max-width: 750px){
   .header h2{
-    margin-left: 20px;
+    margin-left: 0%;
   }
   .header .title-wrapper{
     height: 80%
   }
+  .header .apply-btn{
+    left: -60px;
+  }
   .header .learn-btn{
-    left: -30px !important;
-    top: 180px;
+    left: 80px ;
   }
   .header .img-container{
     clip-path: none;
+  }
+}
+@media(max-width: 670px){
+  .header .title-wrapper{
+    padding: 2.5rem;
+    padding-top: 4rem;
+  }
+  .header h2{
+    font-size: 25px;
+  }
+  .header .apply-btn{
+    top: 7rem;
+    left: -90px
+  }
+  .header .learn-btn{
+    left: 50px
+  }
+}
+@media(max-width: 610px){
+  .header h2{
+    margin-left: 1%;
+  }
+  .header .learn-btn{
+    top: 180px;
+    left: -45px;
+  }
+  .header .apply-btn{
+    left: -45px;
   }
 }
 @media(max-width: 540px){
@@ -123,14 +160,21 @@
     display: none;
   }
   .header .learn-btn{
-    left: 120px !important; 
-    top:inherit
+    left: 120px ; 
+    top:7rem
   }
   .header .img-container{
     display: none;
   }
 }
-
+@media(max-width:400px){
+  .header .apply-btn{
+    left:-20%
+  }
+  .header .learn-btn{
+    left: 80px
+  }
+}
 .testimonial{
     justify-content: center;
     display: flex;
@@ -183,7 +227,6 @@
     align-items: center; 
     transition: all 0.3s;
   }
-  
   #option1 {
     padding-top: 15px;
     font-family: 'Raleway';
@@ -290,10 +333,10 @@
 }
 @media(max-width: 960px){
   .comparison{
-    height: 160vh;
+    height: 145vh;
   }
   .comparison .box{
-    left:0;
+    margin-left: 17%;
   }
   .comparison #info-p-m{
     top:700px;
@@ -302,8 +345,70 @@
     right:15% !important
   }
 }
+
+@media(max-width: 860px){
+  .comparison .box{
+    margin-left: 10%;
+  }
+}
+@media(max-width: 780px){
+  .comparison{
+    height: 160vh;
+  }
+}
+@media(max-width:550px){
+  .comparison .box{
+    margin-left: 2%;
+
+  }
+}
+@media(max-width:470px){
+  .comparison .box{
+    margin-left: 0;
+  }
+}   
+
+
+@media(max-width:530px){
+  .comparison{
+    height: 175vh;
+  }
+  .comparison .box{
+    margin-left: 0;
+  }
+}
+@media(max-width:400px){
+  .comparison{
+    height: 185vh;
+  }
+  .comparison .box{
+    width: 100%;
+    left: 0 !important;
+  }
+}
+
+@media(max-width:1235px){
+  .comparison .box{
+    left: 15%;
+  }
+  .comparison #info-p-m{
+    right:15%;
+  }
+}
+@media(max-width:1045px){
+  .comparison .box{
+    left: 12%;
+  }
+  .comparison #info-p-m{
+    right:12% !important;
+  }
+}
 .positions{
+  height: auto;
     font-family: 'Raleway';
+}
+.positions .PLACEHOLDER{
+  display: none;
 }
 .positions strong{
     font-weight: bold;
@@ -368,6 +473,11 @@
 .positions .box div{
     width: 200px;
 }
+
+.footer{
+  position: absolute;
+  bottom: 0;
+}
 .title-wrapper h4{
     color: #2F6292;
     display: flex;
@@ -412,14 +522,6 @@
       height: 100%;
     }
 }
-@keyframes closeHeight {
-    0% /* (from) */ {
-      height: 100%;
-    }
-    100% /* (to) */ {
-      height: 75px;
-    }
-}
   .ease1{
     animation: moveDown 700ms ease-in 0s forwards;
   }
@@ -428,6 +530,7 @@
 
   }
   .ease3{
+    transition: height 1s;
     animation: fullHeight 700ms ease-in 0s forwards;
   }
   .ease4{

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
-<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
-<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
-<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+  <link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+  <style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+  <style lang="en" type="text/css" id="dark-mode-native-style"></style>
 <head>
     <title>VTF Internships</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -89,7 +89,7 @@
           <img src="/assets/img/q2.png" style="width: 15px;" id="qm2">
         </div>
     </section>
-    <section class="comparison">
+    <section class="comparison" id="comparison-section">
       <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
       <div class="main-container row">
         <div class="button" id='button-container'>
@@ -148,7 +148,7 @@
           </div>
           <div class="button-wrapper"><button class="unavailable"><strong>Unavailable</strong></button></div>
           </div>
-          <div class="info hidden" id="pos-info-1">
+          <div class="info PLACEHOLDER" id="pos-info-1">
               <h6>What We're Looking For</h6>
               <p>Virtually Testing Foundation is seeking a talented individual who possesses skills and experience in Front End Web Development. </p>
               <h6>Schedule</h6>
@@ -188,7 +188,7 @@
           </div>
           <div class="button-wrapper"><button><strong>Apply Now</strong></button></div>
         </div>
-        <div class="info hidden" id="pos-info-2">
+        <div class="info PLACEHOLDER" id="pos-info-2">
           <h6>What We're Looking For</h6>
           <p>Virtually Testing Foundation is seeking a talented individual who possesses skills and experience in Front End Web Development. </p>
           <h6>Schedule</h6>
@@ -228,7 +228,7 @@
           </div>
           <div class="button-wrapper"><button><strong>Apply Now</strong></button></div>
         </div>
-        <div class="info hidden" id="pos-info-3">
+        <div class="info PLACEHOLDER" id="pos-info-3">
           <h6>What We're Looking For</h6>
           <p>Virtually Testing Foundation is seeking a talented individual who possesses skills and experience in Back-End Web Development. </p>
           <h6>Schedule</h6>
@@ -265,7 +265,7 @@
           </div>
           <div class="button-wrapper"><button><strong>Apply Now</strong></button></div>
         </div>
-        <div class="info hidden" id="pos-info-4">
+        <div class="info PLACEHOLDER" id="pos-info-4">
           <h6>What We're Looking For</h6>
           <p>Virtually Testing Foundation is seeking a talented individual who possesses skills and experience in Back-End Web Development. </p>
           <h6>Schedule</h6>
@@ -307,7 +307,7 @@
           <div class="button-wrapper">
           <button><strong>Apply Now</strong></button></div>
         </div>
-        <div class="info hidden" id="pos-info-5">
+        <div class="info PLACEHOLDER" id="pos-info-5">
           <h6>What We're Looking For</h6>
           <p>Virtually Testing Foundation is seeking a talented individual who possesses skills and experience in Back-End Web Development. </p>
           <h6>Schedule</h6>
@@ -409,13 +409,13 @@
       if(document.getElementById("pos-info-" + a).classList.contains('open')){
         $("#chev-" + a).attr("src","/assets/svg/cheveron-right-svgrepo-com.svg")
         document.getElementById("pos-box-" + a).classList.remove("ease3");
-        document.getElementById("pos-info-" + a).classList.add("hidden");
+        document.getElementById("pos-info-" + a).classList.add("PLACEHOLDER");
         document.getElementById("pos-info-" + a).classList.remove("open");
       }
       else{
         $("#chev-" + a).attr("src","/assets/svg/cheveron-down-svgrepo-com.svg")
         document.getElementById("pos-box-" + a).classList.add('ease3');
-        document.getElementById("pos-info-" + a).classList.remove('hidden');
+        document.getElementById("pos-info-" + a).classList.remove('PLACEHOLDER');
         document.getElementById("pos-info-" + a).classList.add('open');
       }
       

@@ -37,6 +37,7 @@ group2.push('Letter of Recommendation')
 
 function changeBeginner(){
   document.getElementById("comp-1").innerHTML = "Advanced"
+  document.getElementById("comparison-section").classList.add("ADV");
     for(i = 0; i <= 10; i++){
         index = 'p' + (i + 1);
         document.getElementById(index).innerHTML = group2[i];
@@ -45,6 +46,8 @@ function changeBeginner(){
 
 function changeAdvanced(){
   document.getElementById("comp-1").innerHTML = "Beginner"
+  document.getElementById("comparison-section").classList.remove("ADV");
+
     for(i = 0; i < 10; i++){
         index = 'p' + (i + 1);
         document.getElementById(index).innerHTML = group1[i];
