@@ -18,10 +18,10 @@
     background-color: #3d6d9d;
 }
 .header{
-    height: 60vh;
+    height: 70vh;
     position: relative;
     overflow: hidden;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
 }
 .header .title-wrapper{
     color: white;
@@ -39,6 +39,7 @@
     width: 120px;
     border-radius: 2rem;
     padding: 10px;
+
 }
 .header .learn-btn{
     background-color: rgb(0,0,0,0);
@@ -80,7 +81,8 @@
     line-height: 1.5rem;
     font-size: 20px;
     font-weight: normal;
-    font-family: 'Open Sans';
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
     text-align: center;
 }
 @media(max-width: 980px){
@@ -107,6 +109,11 @@
     text-align: center;
   }
 }
+@media(max-width: 780px){
+  .header .text-wrapper p{
+    font-size: small;
+  }
+}
 @media(max-width: 750px){
   .header .img-container{
     clip-path: none;
@@ -121,6 +128,10 @@
 @media(max-width: 610px){
 }
 @media(max-width: 540px){
+  .header{
+    height: 38vh;
+    padding-bottom: 0;
+  }
   .header .title-wrapper{
     width:100%
   }
@@ -130,19 +141,28 @@
   .header .img-container{
     display: none;
   }
+  .header .text-wrapper p{
+    font-size: small;
+  }
 }
 @media(max-width: 300px){
-  .header .apply-btn{
-  }
   .header h2{
     width: 90%;
     font-size: 25px;
   }
 }
 .testimonial{
-    justify-content: center;
-    display: flex;
     margin-bottom: 2rem;
+}
+.testimonial .title-wrapper{
+  margin-bottom: 1.5rem;
+}
+.testimonial .main-container{
+  display: flex;
+  justify-content: center;
+}
+.testimonial .quote-container{
+  align-items: flex-end;
 }
 .testimonial .title-container::before, .title-container::after{
     content: " ";
@@ -160,10 +180,11 @@
     color: rgb(104, 131, 254);
 }
 .testimonial .test-container{
+    display: grid;
     border-radius: 10px;
     padding:12px;
     width: 300px;
-    height: 150px;
+    height: 180px;
     box-shadow: 1px 1px 5px rgb(0,0,0,0.7);
 }
 .comparison{
@@ -179,7 +200,6 @@
     border-radius: 20px;
     
   }
-  
   .comparison .button-element {
     width: 100px;
     height: 39px;
@@ -367,14 +387,18 @@
   }
 }
 .positions{
+  margin-bottom: 2rem;
   height: auto;
-    font-family: 'Raleway';
+  font-family: 'Raleway';
 }
 .positions .PLACEHOLDER{
   display: none;
 }
 .positions strong{
     font-weight: bold;
+}
+.positions .title-wrapper{
+  margin-bottom: 2rem;
 }
 .positions .apply-btn{
     left: 0;
@@ -388,7 +412,7 @@
     color: black;
 }
 .positions .box .info{
-    padding: 3rem;
+  padding: 0 3rem 3rem 3rem;
     width: 100%;
 }
 .positions .box p{
@@ -399,17 +423,21 @@
 }
 .positions .box{
     height: 75px;
+    margin-left:10%;
 }
 .full{
     height: 100% !important;
 }
 .positions .box .head{
-    justify-content: space-evenly;
-    padding: 1rem;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 0 !important;
+  justify-content: space-evenly;
+  padding: 1rem;
+  display: flex;
+  width: 90%;
+  height: 100%;
+  padding-bottom: 0 !important;
+  border-color: rgb(0,0,0,0.2);
+  border-width: 1px;
+  border-top-style: solid;
 
 }
 .positions .box .head::after{
@@ -436,7 +464,20 @@
 .positions .box div{
     width: 200px;
 }
-
+@media(max-width:500px){
+  .positions .head p{
+    font-size: 10px;
+  }
+  .positions button{
+    font-size: 8px;
+  }
+  .positions .button-wrapper button {
+    padding: 2px
+  }
+  .icn-right{
+    width: 10px
+  }
+}
 .footer{
   position: absolute;
   bottom: 0;
@@ -457,10 +498,11 @@
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
+#qm1{
+  margin-bottom: 5px;
+}
 #qm2{
-    position: absolute;
-    top:85%;
-    left: 60%
+  margin-left: 260px
 }
 @keyframes moveDown {
     0% /* (from) */ {
@@ -509,4 +551,7 @@
   .icn-right:hover{
     transition: .4s;
     filter: opacity(90%);
+  }
+  #comp-btn{
+    margin-left: 130px  !important;
   }
