@@ -18,14 +18,18 @@
     background-color: #3d6d9d;
 }
 .header{
-    height: 50vh;
+    height: 60vh;
     position: relative;
     overflow: hidden;
     margin-bottom: 2rem;
 }
+.header h2{
+  width: 100%
+}
 .header .title-wrapper{
+  display: flex;
     color: white;
-    width: 100%;
+    width: 50%;
     height: 80%;
     font-family: 'Raleway';
     padding: 6%;
@@ -37,11 +41,10 @@
     background-color: white;
     color: #333E48;
     width: 120px;
-    position: absolute;
-    left: -30px;
+    border-radius: 2rem;
+    padding: 10px;
 }
 .header .learn-btn{
-    left: 120px ; 
     background-color: rgb(0,0,0,0);
     color: white;
 }
@@ -86,95 +89,33 @@
     height: 120%;
     width: auto;
   }
-  .header h2{
-    margin-left: 5%;
-  }
   .header img{
     left: 50%;
   }
-  .header h2{
-    font-size: 30px;
-  }
-  header .apply-btn{
-    left: -70px;
-  }
-  .header .learn-btn{
-    left: 80px ;
-  }
 }
 @media(max-width: 750px){
-  .header h2{
-    margin-left: 0%;
-  }
-  .header .title-wrapper{
-    height: 80%
-  }
-  .header .apply-btn{
-    left: -60px;
-  }
-  .header .learn-btn{
-    left: 80px ;
-  }
   .header .img-container{
     clip-path: none;
   }
 }
 @media(max-width: 670px){
   .header .title-wrapper{
-    padding: 2.5rem;
     padding-top: 4rem;
-  }
-  .header h2{
-    font-size: 25px;
-  }
-  .header .apply-btn{
-    top: 7rem;
-    left: -90px
-  }
-  .header .learn-btn{
-    left: 50px
   }
 }
 @media(max-width: 610px){
-  .header h2{
-    margin-left: 1%;
-  }
-  .header .learn-btn{
-    top: 180px;
-    left: -45px;
-  }
-  .header .apply-btn{
-    left: -45px;
-  }
 }
 @media(max-width: 540px){
   .header .title-wrapper{
     height: 80%
   }
-  .header h2{
-    text-align: center;
-    padding: 1rem;
-    margin-left: 0;
-  }
   .header img{
     display: none;
-  }
-  .header .learn-btn{
-    left: 120px ; 
-    top:7rem
   }
   .header .img-container{
     display: none;
   }
-}
-@media(max-width:400px){
-  .header .apply-btn{
-    left:-20%
-  }
-  .header .learn-btn{
-    left: 80px
-  }
-}
+
 .testimonial{
     justify-content: center;
     display: flex;

@@ -72,8 +72,10 @@
   </section>
     <section class="header">
       <div class="title-wrapper"><h2><strong>Internships at VTF</strong></h2>
-        <button class="apply-btn">Apply Now</button>
-        <button class="learn-btn apply-btn">Learn More</button>
+        <div class="button-container">
+          <button class="apply-btn">Apply Now</button>
+          <button class="learn-btn apply-btn">Learn More</button>
+        </div>
       </div>
       <div class="img-container"><img src="../assets/img/interns.jpg" alt=""></div>
       <div class="text-wrapper">
@@ -133,7 +135,7 @@
       <div class="comp-container">
         <div class="box" id="pos-box-1">
           <div class="head">
-           <img src="/assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(1)" class="icn-right" id="chev-1">
+           <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(1)" class="icn-right" id="chev-1">
             <div class="title-wrapper">
             <p><strong>Beginner Level Internship</strong></p>
             <p>Technical</p>
@@ -172,7 +174,7 @@
         </div>
         <div class="box" id="pos-box-2">
           <div class="head">
-            <img src="/assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(2)" class="icn-right" id="chev-2">
+            <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(2)" class="icn-right" id="chev-2">
 
           <div class="title-wrapper">
             <p><strong>Front-End Developer</strong></p>
@@ -212,7 +214,7 @@
         </div>
         <div class="box" id="pos-box-3">
           <div class="head">
-            <img src="/assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(3)" class="icn-right" id="chev-3">
+            <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(3)" class="icn-right" id="chev-3">
 
           <div class="title-wrapper">
             <p><strong>Back-End Developer</strong></p>
@@ -250,7 +252,7 @@
         </div>
         <div class="box" id="pos-box-4">
           <div class="head">
-            <img src="/assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(4)" class="icn-right" id="chev-4">
+            <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(4)" class="icn-right" id="chev-4">
           <div class="title-wrapper">
             <p><strong>IAM Team</strong></p>
             <p>Management</p>
@@ -290,7 +292,7 @@
         </div>
         <div class="box" id="pos-box-5">
           <div class="head">
-            <img src="/assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(5)" class="icn-right" id="chev-5">
+            <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(5)" class="icn-right" id="chev-5">
 
           <div class="title-wrapper">
             <p><strong>Spiceworks Team</strong></p>
@@ -407,13 +409,13 @@
   <script>
     function openPosition(a){
       if(document.getElementById("pos-info-" + a).classList.contains('open')){
-        $("#chev-" + a).attr("src","/assets/svg/cheveron-right-svgrepo-com.svg")
+        $("#chev-" + a).attr("src","../assets/svg/cheveron-right-svgrepo-com.svg")
         document.getElementById("pos-box-" + a).classList.remove("ease3");
         document.getElementById("pos-info-" + a).classList.add("PLACEHOLDER");
         document.getElementById("pos-info-" + a).classList.remove("open");
       }
       else{
-        $("#chev-" + a).attr("src","/assets/svg/cheveron-down-svgrepo-com.svg")
+        $("#chev-" + a).attr("src","../assets/svg/cheveron-down-svgrepo-com.svg")
         document.getElementById("pos-box-" + a).classList.add('ease3');
         document.getElementById("pos-info-" + a).classList.remove('PLACEHOLDER');
         document.getElementById("pos-info-" + a).classList.add('open');
