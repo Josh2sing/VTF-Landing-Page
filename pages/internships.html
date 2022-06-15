@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/dropdown.css">
   <link rel="stylesheet" href="../assets/css/socicon-styles.css">
-  <link rel="stylesheet" href="../assets/css/theme-style.css">
   <link rel="stylesheet" href="../assets/css">
   <link rel="preload" as="style" href="../assets/mbr-additional.css">
   <link rel="stylesheet" href="../assets/css/mbr-additional.css" type="text/css">
@@ -98,7 +97,7 @@
     </section>
     <section class="comparison" id="comparison-section">
       <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
-      <div class="main-container row">
+      <div class="main-container">
         <div class="button" id='button-container'>
         <div id='my-button' class="button-element">
           <p id='option1'>Beginner</p>
@@ -107,28 +106,29 @@
       </div>
       </div>
       
-      <div class="info-contianer">
-          <div class="box info-1" onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('comparison-section').style.height = '110vh'">
-            <h3 id="comp-1">Beginner</h3>
-            <p id="p1">Understanding of English Fundamentals</p>
-            <p id="p2">Computer with internet connection</p>
-            <p id="p3">High School Diploma+</p>
-            <p id="p4">Flexible Hours</p>
-          </div>
-          <div class="box info-2 " id="box2" onclick=""">
-              <p id="p5">Self Paced Projects</p>
-                <p id="p6">Microsoft Cybersecurity Course</p>
-                <p id="p7">Online Labs</p>
-              
-          </div>      
-          <div class="box info-3 " id="box3">
-            <p id="p8">Minimum Growth in Network Visibility</p>
-            <p id="p9">Certificate of Completion</p>
-            <p id="p10">Understanding of basic concepts</p>
-            <a target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
-          </div>
-          <div class="info-text-wrapper">
-            <div class="info-text"><p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p></div>
+      <div class="info-container" id="info-container">
+          <div class="box-container" id="box-container">
+              <div class="box info-1" onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('box-container').style.height = '590px'">
+              <h3 id="comp-1">Beginner</h3>
+              <p id="p1">Understanding of English Fundamentals</p>
+              <p id="p2">Computer with internet connection</p>
+              <p id="p3">High School Diploma+</p>
+              <p id="p4">Flexible Hours</p>
+              <div class="box info-2 " id="box2" onclick=""">
+                  <p id="p5">Self Paced Projects</p>
+                  <p id="p6">Microsoft Cybersecurity Course</p>
+                  <p id="p7">Online Labs</p>
+              </div>    
+              <div class="box info-3 " id="box3">
+                  <p id="p8">Minimum Growth in Network Visibility</p>
+                  <p id="p9">Certificate of Completion</p>
+                  <p id="p10">Understanding of basic concepts</p>
+                  <a target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
+              </div> 
+              </div>
+           </div>
+          <div class="text-wrapper">
+              <p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p>
           </div>
       </div>
       
