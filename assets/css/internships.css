@@ -256,7 +256,6 @@
   flex-grow: 0;
   flex-shrink: 0;
   transition: height 700ms;
-  outline: auto;
   height: 350px;
 }
 .comparison .text-wrapper{
