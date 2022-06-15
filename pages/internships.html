@@ -22,6 +22,12 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'> 
+  <link rel="stylesheet" href="../assets/css/home.css">
+  <script charset="utf-8"
+    src="./assets/moment_timeline.55634fd8bf871f86dbe537f50a41349e.js"></script>
+  <script charset="utf-8" src="./assets/timeline.2002b66aa236ee3e1e6728119a7c4b98.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
 
 </head>
 <body >
@@ -108,7 +114,7 @@
       
       <div class="info-container" id="info-container">
           <div class="box-container" id="box-container">
-              <div class="box info-1" onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('box-container').style.height = '590px'">
+              <div class="box info-1" onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('box-container').style.height = '530px'">
               <h3 id="comp-1">Beginner</h3>
               <p id="p1">Understanding of English Fundamentals</p>
               <p id="p2">Computer with internet connection</p>
@@ -123,13 +129,13 @@
                   <p id="p8">Minimum Growth in Network Visibility</p>
                   <p id="p9">Certificate of Completion</p>
                   <p id="p10">Understanding of basic concepts</p>
-                  <a target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
               </div> 
               </div>
            </div>
           <div class="text-wrapper">
               <p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p>
-          </div>
+              <a target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
+            </div>
       </div>
       
     </section>
@@ -142,7 +148,7 @@
           <div class="head">
            <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(1)" class="icn-right" id="chev-1">
             <div class="title-wrapper">
-            <p><strong>Beginner Level Internship</strong></p>
+            <p><strong>Beginner Internship</strong></p>
             <p>Technical</p>
           </div>
           <div class="location-wrapper">
@@ -342,7 +348,7 @@
         <div class="text-center">
         <a href="https://status.virtuallytestingfoundation.org/" target="_blank" class="btn">VTF Live Status</a>
         </div>
-        <img src="../assets/img/vtf-white.png" style=" width: 70px; margin-left:-20px;">
+        <img src="../assets/img/vtf-white.png" style=" width: 70px; margin-left:-20px;" id="logo-small">
         <div class="media-container-row">
         </div>
         <div class="footer-lower">
@@ -431,9 +437,17 @@
       
   </script>
     <script src="../assets/js/api.js" async="" defer=""></script>
-  <script src="../assets/js/web-jquery.min.js"></script>
-  <script src="./assets/js/bootstrap.min.js(1)"></script>
-  <script src="../assets/js/navbar-dropdown.js"></script>
+    <script src="../assets/js/web-jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js(1)"></script>
+    <script src="../assets/js/navbar-dropdown.js"></script>
+    <script src="../assets/js/mbr-testimonials-slider.js"></script>
+    <script type="text/javascript">
+      document.onreadystatechange = function () {
+        if (document.readyState === "complete") {
+          document.querySelector("#myLoaderIframe").remove();
+        }
+      }
+    </script>
   
 </body>
 </html>
