@@ -75,30 +75,43 @@
     </nav>
   </section>
     <section class="header">
-      <div class="title-wrapper"><h2><strong>Internships at VTF</strong></h2>
-        <div class="button-container">
-          <button class="apply-btn">Apply Now</button>
-          <button class="learn-btn apply-btn">Learn More</button>
-        </div>
+      <div class="title-wrapper">
+        <div class="title-container">
+          <h2><strong>Internships at VTF</strong></h2>
+          <div class="button-container">
+            <button class="apply-btn">Apply Now</button>
+            <button class="learn-btn apply-btn">Learn More</button>
+          </div>
+        </div>     
+        <div class="img-container"><img src="../assets/img/interns.jpg" alt=""></div>
       </div>
-      <div class="img-container"><img src="../assets/img/interns.jpg" alt=""></div>
       <div class="text-wrapper">
-        <p>Virtually Testing Foundation mission is to serve and provide on-the-job learning experience for everyone who are students, new professionals, or career changers in the cybersecurity community that will prepare them for the work force. VTF is neither selling any product/service nor client data.</p>
 
       </div>
     </section>
     <section class="testimonial " >
-      <div class="title-wrapper"><h4><strong>Our Interns</strong></h4></div> 
+      <div class="title-wrapper"><h4><strong>Testimonials</strong></h4></div> 
       <div class="main-container">
       <div class="test-container">
-          <img src="../assets/img/q1.png" style="width: 20px;" id="qm1">
+          <img src="../assets/img/q1.png" style="width: 20px;" class="qm1">
           <p id="intern-title"><strong>Joshua Singontiko | </strong><strong class="colored">Front-End Developer</strong></p>
           <p>"VTF has been my first experience into the professional world and has already given me sense of accomplishment and I am excited to dedicate myself to the organization everyday."</p>
           <div class="quote-container">
-            <img src="../assets/img/q2.png" style="width: 20px;" id="qm2">
+            <img src="../assets/img/q2.png" style="width: 20px;" class="qm2">
           </div>
-        </div></div>
+        </div>
+        <div class="test-container">
+          <img src="../assets/img/q1.png" style="width: 20px;" class="qm1">
+          <p id="intern-title"><strong>Josue Sainz | </strong><strong class="colored">School Technology Technician | MS in Cyber Security</strong></p>
+          <p>"Events and hand-on workshops offered by Virtually Testing foundation are very insightful."</p>
+          <div class="quote-container">
+            <img src="../assets/img/q2.png" style="width: 20px;" class="qm2">
+          </div>
+        </div>
+
+      </div>
     </section>
+    
     <section class="comparison" id="comparison-section">
       <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
       <div class="main-container">
@@ -112,27 +125,28 @@
       
       <div class="info-container" id="info-container">
           <div class="box-container" id="box-container">
-              <div class="box info-1" onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('box-container').style.height = '530px'">
+              <div class="box info-1" onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('box4').classList.add('ease4');document.getElementById('box-container').style.height = '600px'">
               <h3 id="comp-1">Beginner</h3>
               <p id="p1">Understanding of English Fundamentals</p>
               <p id="p2">Computer with internet connection</p>
               <p id="p3">High School Diploma+</p>
               <p id="p4">Flexible Hours</p>
-              <div class="box info-2 " id="box2" onclick=""">
-                  <p id="p5">Self Paced Projects</p>
-                  <p id="p6">Microsoft Cybersecurity Course</p>
-                  <p id="p7">Online Labs</p>
-              </div>    
-              <div class="box info-3 " id="box3">
-                  <p id="p8">Minimum Growth in Network Visibility</p>
-                  <p id="p9">Certificate of Completion</p>
-                  <p id="p10">Understanding of basic concepts</p>
-              </div> 
               </div>
+              <div class="box info-2" id="box2" onclick=""">
+                <p id="p5">Self Paced Projects</p>
+                <p id="p6">Microsoft Cybersecurity Course</p>
+                <p id="p7">Online Labs</p>
+            </div>    
+            <div class="box info-3" id="box3">
+                <p id="p8">Minimum Growth in Network Visibility</p>
+                <p id="p9">Certificate of Completion</p>
+                <p id="p10">Understanding of basic concepts</p>
+            </div> 
+            <div class="box info-4" id="box4"><a target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
+            </div>
            </div>
           <div class="text-wrapper">
               <p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p>
-              <a target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
             </div>
       </div>
       
@@ -249,7 +263,7 @@
           <p>- Django</p>
           <p>- Java</p>
           <p>- Python</p>
-          <p>- CSS/HTML</p>\
+          <p>- CSS/HTML</p>
           <h6>Skills</h6>
           <p>- Proficient in scripting languages</p>
           <p>- Have in-depth knowledge and understanding of the entire web development process (design, development, and deployment)</p>
