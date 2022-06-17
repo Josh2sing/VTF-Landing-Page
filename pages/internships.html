@@ -23,11 +23,13 @@
   <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'> 
   <link rel="stylesheet" href="../assets/css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <script charset="utf-8"
     src="./assets/moment_timeline.55634fd8bf871f86dbe537f50a41349e.js"></script>
   <script charset="utf-8" src="./assets/timeline.2002b66aa236ee3e1e6728119a7c4b98.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-
+  
 
 </head>
 <body >
@@ -89,29 +91,24 @@
 
       </div>
     </section>
+   
     <section class="testimonial " >
       <div class="title-wrapper"><h4><strong>Testimonials</strong></h4></div> 
-      <div class="main-container">
-      <div class="test-container">
-          <img src="../assets/img/q1.png" style="width: 20px;" class="qm1">
+        <div class="owl-carousel owl-theme">
+      <div class="test-container item">
           <p id="intern-title"><strong>Joshua Singontiko | </strong><strong class="colored">Front-End Developer</strong></p>
           <p>"VTF has been my first experience into the professional world and has already given me sense of accomplishment and I am excited to dedicate myself to the organization everyday."</p>
           <div class="quote-container">
-            <img src="../assets/img/q2.png" style="width: 20px;" class="qm2">
           </div>
         </div>
-        <div class="test-container">
-          <img src="../assets/img/q1.png" style="width: 20px;" class="qm1">
+        <div class="test-container item">
           <p id="intern-title"><strong>Josue Sainz | </strong><strong class="colored">School Technology Technician | MS in Cyber Security</strong></p>
           <p>"Events and hand-on workshops offered by Virtually Testing foundation are very insightful."</p>
           <div class="quote-container">
-            <img src="../assets/img/q2.png" style="width: 20px;" class="qm2">
           </div>
         </div>
-
       </div>
     </section>
-    
     <section class="comparison" id="comparison-section">
       <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
       <div class="main-container">
@@ -421,6 +418,7 @@
         </div>
     </div>
     </footer>
+    
     <script src="../assets/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa "
     crossorigin="anonymous "></script>
@@ -448,8 +446,10 @@
     };
       
   </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="../assets/js/api.js" async="" defer=""></script>
-    <script src="../assets/js/web-jquery.min.js"></script>
     <script src="../assets/js/bootstrap.min.js(1)"></script>
     <script src="../assets/js/navbar-dropdown.js"></script>
     <script src="../assets/js/mbr-testimonials-slider.js"></script>
@@ -460,6 +460,26 @@
         }
       }
     </script>
-  
+  <script>
+     $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    autoWidth:true,
+    center:true, 
+    items:2,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+  </script>
 </body>
 </html>

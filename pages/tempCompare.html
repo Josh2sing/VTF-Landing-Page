@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+  <!--
     <section class="comparison" id="comparison-section">
         <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
         <div class="main-container">
@@ -43,10 +46,66 @@
                 <p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p>
             </div>
         </div>
-        
+-->
       </section>
-
+    
       <style>
+
+        
+.testimonial{
+    margin-bottom: 2rem;
+}
+.testimonial .title-wrapper{
+  margin-bottom: 1.5rem;
+}
+.testimonial .main-container{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.testimonial .quote-container{
+  display: flex;
+  justify-content: flex-end;
+  bottom: 0;
+}
+.testimonial .title-container::before,.testimonial .title-container::after{
+    content: " ";
+    flex: 1;
+    height: 7px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.testimonial p{
+  line-height: 1.6rem;
+  font-size: 16px;
+  font-family: 'raleway';
+  font-weight: 450;
+  text-align: left;
+  width: auto;
+}
+
+.testimonial .colored{
+    color: rgb(104, 131, 254);
+}
+.testimonial .test-container{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-radius: 20px;
+  padding:2rem;
+  width: 450px;
+  height: auto;
+  box-shadow: 1px 1px 5px rgb(0,0,0,0.2);
+}
+#intern-title strong{
+  font-size: 1.1rem;
+  font-family: 'Raleway';
+  font-weight: bolder;
+}
 .comparison{
     height: auto;
     transition: height 700ms;
@@ -212,5 +271,26 @@
     }
 }
       </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoWidth:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+      </script>
 </body>
 </html>
