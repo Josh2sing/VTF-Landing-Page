@@ -38,7 +38,7 @@ body p{
 }
 .header .title-wrapper strong{
   font-weight:600;
-  font-size: 45px;
+  font-size: 3vw;
 }
 .header .apply-btn{
     background-color: white;
@@ -116,12 +116,26 @@ body p{
     flex-direction: column;
 
   }
+  .header .title-wrapper strong{
+    font-size: 8vw;
+  }
+@media (max-aspect-ratio: 375/667) {
+    .header{
+        height:75vh;
+      }
+    .header .title-wrapper
+    {
+        height: 70vh;
+    }
+}
   .header img{
     bottom:0;
     left:0;
     width: 100%
   }
   .header .img-container{
+    display: flex;
+    align-items: flex-end;
     height: 50%;
     width: 100%;
     top:auto;
