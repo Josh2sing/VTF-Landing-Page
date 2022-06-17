@@ -17,7 +17,7 @@ body p{
     border: none;
     border-radius: 32px;
     width: 85px;
-    margin-top: 0.2rem;
+    margin-top: 0rem;
 }
 .cid-1 .dropbtn:hover{
     background-color: #3d6d9d;
@@ -371,8 +371,16 @@ body p{
   color: rgb(0, 0, 0);
   border-width: 1px;
   border-color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
+.comparison .apply-btn{
+    width: 100px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    border-color: white !important;
+    background-color: rgba(0, 0, 0, 0);
+  }
 .comparison .apply-btn:hover{
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
