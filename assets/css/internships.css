@@ -588,6 +588,16 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display
     color: white;
     border-color: #ffffff;
   }
+  @media (max-width:766px){
+    #logo-small{
+      margin-left: 50px !important;
+    }
+  }
+  @media (max-width:417px){
+    #logo-small{
+      margin-left: 50px;
+    }
+  }
   @media(max-width:426px){
     .media-container-row{
       flex-wrap: wrap;
