@@ -435,6 +435,8 @@ section, .container, .container-fluid {
 }
 .positions .box h6{
     font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 .positions .box{
     height: 75px;
