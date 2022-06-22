@@ -1,0 +1,38 @@
+.howto{
+    padding:5%;
+}
+.howto h1{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.howto strong{
+    font-weight: bold;
+}
+.howto p{
+    font-size: 1.5rem;
+}
+.howto img{
+    width: 70%;
+}
+.howto table{
+}
+.howto td{
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    background-color: rgb(240, 240, 240);
+}
+.howto td:first-child{
+    padding:1rem;
+    width: 10%;
+}
+.howto td:last-child{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.howto td:first-child{
+}
+.howto h1{
+    text-align: center;
+}

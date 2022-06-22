@@ -484,6 +484,9 @@ section, .container, .container-fluid {
 .positions .box .title-wrapper{
   width:200px
 }
+.positions h4{
+  margin-bottom: 1rem;
+}
 .positions .unavailable button{
   padding: 5px;
   border-radius: 5px;
