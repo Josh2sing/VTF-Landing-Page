@@ -326,14 +326,13 @@ body p{
   height: 200px !important;
   transition: top 400ms;
   position: relative;
-  top: -40%;
+  top: -30%;
   z-index: 2;
 }
-
 .comparison .info-3{
   padding-top: 70px;
   background-color: #4288C8;
-  top: -81%;
+  top: -61%;
   height: 200px !important;
   transition: top 400ms;
   position: relative;
@@ -344,7 +343,7 @@ body p{
   justify-content: center;
   background-color: #4BA4F4;
   height: 150px;
-  top: -110%;
+  top: -82%;
   position: relative;
 }
 .comparison .info-4 .apply-btn{
@@ -479,13 +478,16 @@ section, .container, .container-fluid {
     color: white;
 }
 .positions .box div{
-    width: 150px;
 }
 .positions .box .title-wrapper{
   width:200px
 }
 .positions h4{
   margin-bottom: 1rem;
+}
+.positions h5{
+  text-align: center;
+  margin: 2rem 0rem;
 }
 .positions .unavailable button{
   padding: 5px;

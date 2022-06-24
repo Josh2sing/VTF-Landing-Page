@@ -1,10 +1,27 @@
 .howto{
-    padding:5%;
+    padding: 0rem 5rem 1rem 5rem;
 }
-.howto h3{
+.howto h4{
     font-family: 'Raleway';
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
+    margin: 0;
+
+}
+.howto .title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.howto table{
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
 }
 .howto strong{
     font-weight: bold;
@@ -26,6 +43,9 @@
     padding:1rem;
     width: 10%;
 }
+.howto td:nth-child(2){
+    padding:1rem;
+}
 .howto td:last-child{
     overflow: hidden;
     flex-direction: column;
@@ -35,8 +55,33 @@
     padding:0;
 }
 .howto td:last-child  img:hover{
+    
+    transition: transform 500ms;
     cursor:zoom-in;
     transform: scale(1.1);
+}
+@media(max-width: 430px){
+    .howto td p{
+        font-size: .7rem;
+        line-height: 0.95rem;
+    }
+    .howto td:last-child{
+        width: 300px;
+    }
+    .howto td:last-child img{
+        width: 300px;
+    }
+}
+@media(max-width:530px){
+    .howto td:last-child{
+        width: 300px;
+    }
+    .howto td:last-child img{
+        width: 300px;
+    }
+}
+.cid-16{
+    width: vw;
 }
 .center{
     cursor:alias;
@@ -58,4 +103,14 @@
 }
 .center img:hover{
     transform: scale(1) !important; 
+}
+#closeLogo{
+    filter: brightness(100);
+    position: relative;
+    top:-47vh;
+    right: -23vw;
+    width: 25px;
+}
+#closeLogo:hover{
+    filter: brightness(0);
 }

@@ -121,24 +121,24 @@
       
       <div class="info-container" id="info-container">
           <div class="box-container" id="box-container">
-              <div class="box info-1" id='box1' onclick="document.getElementById('box2').classList.add('ease1');document.getElementById('box3').classList.add('ease2');document.getElementById('box4').classList.add('ease4');document.getElementById('box-container').style.height = '650px';">
+              <div class="box info-1" id='box1' onclick="openBoxes()">
               <h3 id="comp-1">Beginner</h3>
               <p id="p1">Understanding of English Fundamentals</p>
               <p id="p2">Computer with internet connection</p>
               <p id="p3">High School Diploma+</p>
               <p id="p4">Flexible Hours</p>
               </div>
-              <div class="box info-2" id="box2" onclick=""">
+              <div class="box info-2" id="box2">
                 <p id="p5">Self Paced Projects</p>
                 <p id="p6">Microsoft Cybersecurity Course</p>
-                <p id="p7">Online Labs</p>
+                <p id="p7" hidden>Online Labs</p>
             </div>    
             <div class="box info-3" id="box3">
                 <p id="p8">Minimum Growth in Network Visibility</p>
                 <p id="p9">Certificate of Completion</p>
-                <p id="p10">Understanding of basic concepts</p>
+                <p id="p10" hidden>Understanding of basic concepts</p>
             </div> 
-            <div class="box info-4" id="box4"><a href="https://vtfjobs.on.spiceworks.com/portal" target="_blank" class="apply-container"><button class="apply-btn" id="comp-btn">Apply Now</button></a>
+            <div class="box info-4" id="box4" ><a href="https://vtfjobs.on.spiceworks.com/portal" target="_blank" class="apply-container"><button class="apply-btn" hidden id="comp-btn">Apply Now</button></a>
             </div>
            </div>
           <div class="text-wrapper">
@@ -153,6 +153,7 @@
       <a href="../pages/howtoapply.html" target="_blank"><h5 style="text-align: center;">How to Apply</h5></a>
     </div>
       <div class="comp-container">
+        <h5><strong>Beginner</strong></h5>
         <div class="box" id="pos-box-1">
           <div class="head">
            <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(1)" class="icn-right" id="chev-1">
@@ -182,6 +183,7 @@
               <div class="unavailable"><button class="" disabled ><strong>Unavailable</strong></button></div>
             </div>
         </div>
+        <h5><strong>Advanced</strong></h5>
         <div class="box" id="pos-box-2">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(2)" class="icn-right" id="chev-2">
@@ -563,6 +565,18 @@
         }
     }
 })
+  </script>
+  <script>
+    function openBoxes(){
+      document.getElementById('box2').classList.add('ease1');
+      document.getElementById('box3').classList.add('ease2');
+      document.getElementById('box4').classList.add('ease4');
+      for(i = 5; i <= 10; i++){
+        document.getElementById("p" + i).hidden = false
+      }
+      document.getElementById("comp-btn").hidden = false
+      document.getElementById('box-container').style.height = '650px';
+    }
   </script>
 </body>
 </html>

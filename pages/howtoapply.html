@@ -67,9 +67,9 @@
           </div>
         </nav>
       </section>
-    <section class="howto" id="howto">
+      <section class="howto" id="howto">
         <table class="howto-table">
-            <h3>How to Apply for a VTF Role</h3>
+            <div class="title-container"><h4>How to Apply for a VTF Role</h4></div>
             <tr>
                 <td><strong>Step 1</strong></td>
                 <td>
@@ -233,8 +233,18 @@
     const images = document.querySelectorAll(".img-container")
     images.forEach(box => {
         box.addEventListener('click', function(e){
-                if(box.classList.contains("center")){box.classList.remove("center")}
-                else{box.classList.add("center")}
+                if(box.classList.contains("center")){
+                    box.classList.remove("center")
+                    box.removeChild(document.getElementById("closeLogo"))
+                }
+                else{
+                    const esc = document.createElement("img")
+                    esc.src = "/assets/img/XXXX.png"
+                    esc.id = "closeLogo"
+                    box.appendChild(esc)
+                    box.classList.add("center")
+                    
+                }
         })
     })
     
