@@ -71,41 +71,44 @@
         <table class="howto-table">
             <h3>How to Apply for a VTF Role</h3>
             <tr>
-                <td>Step 1</td>
+                <td><strong>Step 1</strong></td>
                 <td>
                     <p>Navigate to using following link</p>
                     <a href="https://vtfjobs.on.spiceworks.com/portal
                     " target="_blank"><p>https://vtfjobs.on.spiceworks.com/portal
                     </p></a>
                 </td>
-                <td><img src="../assets/img/howto1.PNG" alt=""></td>
+                <td>
+                    <div class="img-container"><img src="../assets/img/howto1.PNG" alt=""></div>
+                    </td>
             </tr>
             <tr>
-                <td>Step 2</td>
+                <td><strong>Step 2</strong></td>
                 <td>
                     <p>Type in your preferred Email, then select Log In
                     </p>
                     <p>A login link will be sent to that email
                     </p>
                 </td>
-                <td><img src="../assets/img/howto2.PNG" alt=""><img src="../assets/img/howto3.PNG" alt=""></td>
+                <td><div class="img-container"><img src="../assets/img/howto2.PNG" alt=""></div>
+                <div class="img-container"><img src="../assets/img/howto3.PNG" alt=""></div></td>
             </tr>
             <tr>
-                <td>Step 3</td>
+                <td><strong>Step 3</strong></td>
                 <td><p>Once you have received the email, click on the link
                     provided
                     </p></td>
-                <td><img src="../assets/img/howto4.PNG" alt=""></td>
+                <td><div class="img-container"><img src="../assets/img/howto4.PNG" alt=""></div></td>
             </tr>
             <tr>
-                <td>Step 4</td>
+                <td><strong>Step 4</strong></td>
                 <td>
                     <p>Once you are officially logged in to the portal, select <strong>+Submit a Ticket</strong></p>
                 </td>
-                <td><img src="../assets/img/howto5.PNG" alt=""></td>
+                <td><div class="img-container"><img src="../assets/img/howto5.PNG" alt=""></div></td>
             </tr>
             <tr>
-                <td>Step 5</td>
+                <td><strong>Step 5</strong></td>
                 <td>
                     <p> Fill out the information for the ticket you are
                         requesting</p>
@@ -120,24 +123,24 @@
                     <p><strong>Select Submit</strong></p>
                     <p>You will receive an email from Helpdesk confirming your open ticket.</p>
                 </td>
-                <td><img src="../assets/img/howto6.PNG" alt=""></td>
+                <td><div class="img-container"><img src="../assets/img/howto6.PNG" alt=""></div></td>
             </tr>
             <tr>
-                <td>Step 6</td>
+                <td><strong>Step 6</strong></td>
                 <td>
                     <p>You will receive an email response</p>
                     <p>Continue to monitor your email for responses and remain in communication with VTF Open Positions</p>
                 </td>
-                <td><img src="../assets/img/howto7.PNG" alt=""></td>
+                <td><div class="img-container"><img src="../assets/img/howto7.PNG" alt=""></div></td>
             </tr>
             <tr>
-                <td>Step 7</td>
+                <td><strong>Step 7</strong></td>
                 <td>
                     <p>Once the request is complete, you will receive a
                         response that the request is complete and your ticket is
                         closed.</p>
                 </td>
-                <td><img src="../assets/img/howto8.PNG" alt=""></td>
+                <td><div class="img-container"><img src="../assets/img/howto8.PNG" alt=""></div></td>
             </tr>
         </table>
     </section>
@@ -226,6 +229,15 @@
         }
         }
     </script>
-
+<script type="text/javascript">
+    const images = document.querySelectorAll(".img-container")
+    images.forEach(box => {
+        box.addEventListener('click', function(e){
+                if(box.classList.contains("center")){box.classList.remove("center")}
+                else{box.classList.add("center")}
+        })
+    })
+    
+</script>
 </body>
 </html>
