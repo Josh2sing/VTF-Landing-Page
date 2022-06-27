@@ -413,9 +413,6 @@ section, .container, .container-fluid {
 .positions strong{
     font-weight: bold;
 }
-.positions .title-wrapper{
-  margin-bottom: 2rem;
-}
 .positions .apply-btn{
     left: 0;
     background-color: #4288C8;
@@ -443,6 +440,36 @@ section, .container, .container-fluid {
 }
 .full{
     height: 100% !important;
+}
+.positions .howto{
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  bottom: 0;
+  right: 3rem;
+  background-color:#3d6d9d;
+  position:fixed;
+  height: 3rem;
+  justify-content: center;
+  display: flex;
+}
+.positions .howto a{
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  width: 60px;
+  color: white;
+}
+.positions .howto h5{
+  display:none;
+}
+.positions .howto a:hover{
+  width: 200px;
+}
+.positions .howto a:hover h5{
+  display: unset;
+}
+.positions .howto img{
+  filter: invert(100);
 }
 .positions .box .head{
   justify-content: space-evenly;
@@ -494,6 +521,21 @@ section, .container, .container-fluid {
   border-radius: 5px;
   background-color: #fff;
   border-width: 1.5px;
+}
+.positions .separation-wrapper{
+  height: 4.4em;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 180px;
+  margin-bottom: 2rem;
+  margin-top:1rem;
+  border-radius: 10px;
+  color:#4288C8;
+}
+.positions .center{
+  justify-content: center;
+  display: flex;
 }
 @media (max-width: 700px){
   .positions .box{
