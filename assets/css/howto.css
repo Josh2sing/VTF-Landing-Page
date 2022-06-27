@@ -20,6 +20,7 @@
     border-top-right-radius: 10px;
 }
 .howto table{
+    width: 90%;
     border-left: 1px solid rgb(0, 0, 0);
     border-right: 1px solid rgb(0, 0, 0);
 }
@@ -65,20 +66,8 @@
         font-size: .7rem;
         line-height: 0.95rem;
     }
-    .howto td:last-child{
-        width: 300px;
-    }
-    .howto td:last-child img{
-        width: 300px;
-    }
 }
 @media(max-width:530px){
-    .howto td:last-child{
-        width: 300px;
-    }
-    .howto td:last-child img{
-        width: 300px;
-    }
 }
 .cid-16{
     width: vw;
