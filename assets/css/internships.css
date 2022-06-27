@@ -442,15 +442,17 @@ section, .container, .container-fluid {
     height: 100% !important;
 }
 .positions .howto{
-  border-top-left-radius:10px;
-  border-top-right-radius:10px;
-  bottom: 0;
-  right: 3rem;
+  width: 60px;
   background-color:#3d6d9d;
-  position:fixed;
-  height: 3rem;
+  position:absolute;
+  right: 0;
+  bottom: 25%;
+  z-index: 9;
+  height: 5rem;
   justify-content: center;
   display: flex;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .positions .howto a{
   justify-content: space-evenly;
@@ -462,11 +464,16 @@ section, .container, .container-fluid {
 .positions .howto h5{
   display:none;
 }
+.positions .apply-btn:hover ~ .howto{
+  width: 200px;
+}
 .positions .howto a:hover{
   width: 200px;
 }
-.positions .howto a:hover h5{
-  display: unset;
+@media(max-width: 1210px){
+  .positions .howto{
+    top:35%
+  }
 }
 .positions .howto img{
   filter: invert(100);
@@ -483,7 +490,6 @@ section, .container, .container-fluid {
   border-top-style: solid;
 
 }
-
 .positions .box .head::after{
     content:"";
     background: #ccc;

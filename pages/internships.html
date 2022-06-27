@@ -150,7 +150,7 @@
     <section class="positions" >
       <div class="title-wrapper">
       <h4 class="header" id="positions"><strong>Positions</strong></h4>
-      <div class="howto"><a href="../pages/howtoapply.html" target="_blank"><img src="../assets/img/question.png" alt="" width="30px" height="30px"><h5 style="text-align: center;">How to Apply</h5></a></div>
+      
     </div>
       <div class="comp-container">
         <div class="center">
@@ -192,7 +192,7 @@
           <h5><strong>Advanced</strong></h5>
         </div>
       </div>
-        <div class="box" id="pos-box-2">
+        <div class="box advanced" id="pos-box-2">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(2)" class="icn-right" id="chev-2">
 
@@ -232,7 +232,7 @@
           <a href="https://vtfjobs.on.spiceworks.com/portal/registrations" target="_blank"><button class="apply-btn">Apply Now</button></a>
         </div>
         </div>
-        <div class="box" id="pos-box-3">
+        <div class="box advanced" id="pos-box-3">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(3)" class="icn-right" id="chev-3">
 
@@ -273,7 +273,7 @@
           <a href="https://vtfjobs.on.spiceworks.com/portal/registrations" target="_blank"><button class="apply-btn">Apply Now</button></a>
         </div>
         </div>
-        <div class="box" id="pos-box-6">
+        <div class="box advanced" id="pos-box-6">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(6)" class="icn-right" id="chev-6">
 
@@ -321,7 +321,8 @@
           <a href="https://vtfjobs.on.spiceworks.com/portal" target="_blank"><button class="apply-btn">Apply Now</button></a>
         </div>
         </div>
-        <div class="box" id="pos-box-7">
+        <div class="howto" id="howto"><a id="howtolink" href="../pages/howtoapply.html" target="_blank"><img src="../assets/img/question.png" alt="" width="30px" height="30px"><h5 id="howtostyle" style="text-align: center;">Procedure to apply Advance Positions</h5></a></div>
+        <div class="box advanced" id="pos-box-7">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(7)" class="icn-right" id="chev-7">
 
@@ -362,7 +363,7 @@
           <a href="https://vtfjobs.on.spiceworks.com/portal" target="_blank"><button class="apply-btn" >Apply Now</button></a>
         </div>
         </div>
-        <div class="box" id="pos-box-4">
+        <div class="box advanced" id="pos-box-4">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(4)" class="icn-right" id="chev-4">
           <div class="title-wrapper">
@@ -402,7 +403,7 @@
           <a href="https://vtfjobs.on.spiceworks.com/portal/registrations" target="_blank"><button class="apply-btn">Apply Now</button></a>
         </div>
         </div>
-        <div class="box" id="pos-box-5">
+        <div class="box advanced" id="pos-box-5">
           <div class="head">
             <img src="../assets/svg/cheveron-right-svgrepo-com.svg" onclick="openPosition(5)" class="icn-right" id="chev-5">
 
@@ -585,6 +586,18 @@
       document.getElementById("comp-btn").hidden = false
       document.getElementById('box-container').style.height = '650px';
     }
+  </script>
+  <script>
+    $(".advanced .button-wrapper").hover(function(){
+      var howto = document.getElementById("howto").style
+      var text = document.getElementById("howtostyle").style
+      var link = document.getElementById("howtolink").style
+      howto.transition = "width 500ms"
+      text.transition = "width 500ms"
+      howto.width = "280px"
+      link.width = "230px"
+      text.display = "unset"
+    })
   </script>
 </body>
 </html>
