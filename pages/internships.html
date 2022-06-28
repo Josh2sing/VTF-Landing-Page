@@ -94,19 +94,31 @@
     <section class="testimonial " >
       <div class="title-wrapper"><h4><strong>Testimonials</strong></h4></div> 
         <div class="owl-carousel owl-theme">
-      <div class="test-container item">
-          <p id="intern-title"><strong>Joshua Singontiko | </strong><strong class="colored">Front-End Developer</strong></p>
-          <p>"VTF has been my first experience into the professional world and has already given me sense of accomplishment and I am excited to dedicate myself to the organization everyday."</p>
-          <div class="quote-container">
+          <div class="test-container item">
+            <p id="intern-title"><strong>Joshua Singontiko | </strong><strong class="colored">Front-End Developer</strong></p>
+            <p>"VTF has been my first experience into the professional world and has already given me sense of accomplishment and I am excited to dedicate myself to the organization everyday."</p>
+            <div class="quote-container">
+            </div>
+          </div>
+          <div class="test-container item">
+            <p id="intern-title"><strong>Josue Sainz | </strong><strong class="colored">School Technology Technician | MS in Cyber Security</strong></p>
+            <p>"Events and hand-on workshops offered by Virtually Testing foundation are very insightful."</p>
+            <div class="quote-container">
+            </div>
+          </div>
+          <div class="test-container item">
+            <p id="intern-title"><strong>Joshua Singontiko | </strong><strong class="colored">Front-End Developer</strong></p>
+            <p>"VTF has been my first experience into the professional world and has already given me sense of accomplishment and I am excited to dedicate myself to the organization everyday."</p>
+            <div class="quote-container">
+            </div>
+          </div>
+          <div class="test-container item">
+            <p id="intern-title"><strong>Josue Sainz | </strong><strong class="colored">School Technology Technician | MS in Cyber Security</strong></p>
+            <p>"Events and hand-on workshops offered by Virtually Testing foundation are very insightful."</p>
+            <div class="quote-container">
+            </div>
           </div>
         </div>
-        <div class="test-container item">
-          <p id="intern-title"><strong>Josue Sainz | </strong><strong class="colored">School Technology Technician | MS in Cyber Security</strong></p>
-          <p>"Events and hand-on workshops offered by Virtually Testing foundation are very insightful."</p>
-          <div class="quote-container">
-          </div>
-        </div>
-      </div>
     </section>
     <section class="comparison" id="comparison-section">
       <div class="title-wrapper"><h4><strong>Beginner vs Advanced</strong></h4></div>
@@ -513,7 +525,7 @@
     </div>
     </footer>
     
-    <script src="../assets/js/bootstrap.min.js"
+  <script src="../assets/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa "
     crossorigin="anonymous "></script>
   <script defer="" src="../assets/v652eace1692a40cfa3763df669d7439c1639079717194"
@@ -555,25 +567,27 @@
       }
     </script>
   <script>
-     $('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    autoWidth:true,
-    center:true, 
-    items:2,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
+    
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      nav:false,
+    responsive: {
+      1860:{
+        items:4
+      },
+      1400:{
+        items:3
+      },
+      930:{
+        items:2
+      },
+      0:{
+        items:1
+      }
     }
+    
 })
+$('.testimonials')
   </script>
   <script>
     function openBoxes(){
