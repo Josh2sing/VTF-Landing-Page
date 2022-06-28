@@ -14,7 +14,7 @@
 .howto .title-container{
 }
 .howto table{
-    width: 40%;
+    width: 50%;
     margin: 3rem;
 }
 .howto strong{
@@ -30,25 +30,20 @@
     height: 100%;
 }
 .howto td{
-    padding:3rem;
+    padding:1rem;
 }
 .howto tr:nth-child(2n-1){
     background-color: rgb(240, 240, 240);
 }
 .howto td:first-child{
     background-color: rgba(247, 247, 247, 0.554);
-    padding:1rem;
     width: 15%;
 }
 .howto td:nth-child(2){
-    padding:1rem;
-    width: 70%;
+    width: 80%;
 }
 .howto td:last-child{
     overflow: hidden;
-}
-.howto td{
-    padding:0;
 }
 .howto td:last-child  img:hover{
     
