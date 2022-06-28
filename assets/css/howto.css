@@ -5,7 +5,7 @@
 }
 .howto h4{
     font-family: 'Raleway';
-    color: rgb(0, 0, 0);
+    color:rgb(77, 141, 209);
     font-weight: bold;
     text-align: center;
     margin: 0;
@@ -14,7 +14,8 @@
 .howto .title-container{
 }
 .howto table{
-    width: 70%;
+    width: 40%;
+    margin: 3rem;
 }
 .howto strong{
     font-weight: bold;
@@ -28,22 +29,23 @@
     width: 300px;
     height: 100%;
 }
+.howto td{
+    padding:3rem;
+}
 .howto tr:nth-child(2n-1){
     background-color: rgb(240, 240, 240);
 }
 .howto td:first-child{
     background-color: rgba(247, 247, 247, 0.554);
     padding:1rem;
-    width: 10%;
+    width: 15%;
 }
 .howto td:nth-child(2){
     padding:1rem;
-    width: 30%;
+    width: 70%;
 }
 .howto td:last-child{
     overflow: hidden;
-    flex-direction: column;
-    width:20%
 }
 .howto td{
     padding:0;
@@ -53,6 +55,23 @@
     transition: transform 500ms;
     cursor:zoom-in;
     transform: scale(1.1);
+}
+@media(max-width: 510px){
+    .howto td:first-child{
+        display: none;
+    }
+    .howto td:last-child img{
+        width: 200px !important;
+    }
+    .howto td p{
+        font-size: 12px;
+    }
+    .center img{
+        width: 80vw !important;
+    }
+    .center #closeLogo{
+        display: none;
+    }
 }
 .cid-16{
     width: vw;
@@ -80,9 +99,9 @@
 }
 #closeLogo{
     filter: brightness(100);
-    position: relative;
-    top:-47vh;
-    right: -23vw;
+    position: absolute;
+    top:20px;
+    right: 20px;
     width: 25px;
 }
 #closeLogo:hover{

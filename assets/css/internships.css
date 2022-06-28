@@ -472,7 +472,7 @@ section, .container, .container-fluid {
 }
 @media(max-width: 1210px){
   .positions .howto{
-    top:35%
+    top:50%
   }
 }
 .positions .howto img{
@@ -534,8 +534,6 @@ section, .container, .container-fluid {
   justify-content: space-evenly;
   align-items: center;
   width: 180px;
-  margin-bottom: 2rem;
-  margin-top:1rem;
   border-radius: 10px;
   color:#4288C8;
 }
