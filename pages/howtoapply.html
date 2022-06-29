@@ -247,8 +247,12 @@
                     esc.id = "closeLogo"
                     box.appendChild(esc)
                     box.classList.add("center")
-                    if(box.id = "hwt6"){
+                    box.firstChild.style = "width: 50%"
+                    if(box.id == "hwt6"){
                         box.firstChild.style = "width: 30%"
+                    }
+                    else{
+                        box.firstChild.style = "width: 50%"
                     }
                 }
         })
