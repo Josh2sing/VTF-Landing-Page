@@ -309,6 +309,7 @@ body p{
   background-color: #333E48;
   z-index: 3;
   position: relative;
+  cursor: pointer;
 }
 .comparison .info-1:not(:focus):hover{
   transition: height 500ms;
