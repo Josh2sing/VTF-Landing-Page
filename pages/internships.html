@@ -154,7 +154,7 @@
             </div>
            </div>
           <div class="text-wrapper">
-              <p id="info-p-m">Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.</p>
+              <p id="info-p-m">Beginner internships are student's introduction to the cybersecurity world. Students will be able to work at their own pace and will gain an understanding of basic cybersecurity concepts. Beginner internships are open to all.</p>
             </div>
       </div>
       
@@ -606,7 +606,8 @@ $('.testimonials')
     }
   </script>
   <script>
-    $(".advanced .button-wrapper").hover(function(){
+    
+    $("#howtolink").hover(function openHowto(){
       var howto = document.getElementById("howto").style
       var text = document.getElementById("howtostyle").style
       var link = document.getElementById("howtolink").style
@@ -615,6 +616,16 @@ $('.testimonials')
       link.width = "230px"
       text.display = "unset"
     })
+    $(".advanced .button-wrapper").hover(function openHowto(){
+      var howto = document.getElementById("howto").style
+      var text = document.getElementById("howtostyle").style
+      var link = document.getElementById("howtolink").style
+      howto.transition = "width 500ms"
+      howto.width = "280px"
+      link.width = "230px"
+      text.display = "unset"
+    })
+    
   </script>
 </body>
 </html>

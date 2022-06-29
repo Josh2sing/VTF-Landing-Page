@@ -448,7 +448,7 @@ section, .container, .container-fluid {
   background-color:#3d6d9d;
   position:absolute;
   right: 0;
-  bottom: 25%;
+  top:50%;
   z-index: 9;
   height: 5rem;
   justify-content: center;
@@ -472,9 +472,13 @@ section, .container, .container-fluid {
 .positions .howto a:hover{
   width: 200px;
 }
+@media(max-width:1024px){
+  .positions .howto{
+    height:50px;
+  }
+}
 @media(max-width: 1210px){
   .positions .howto{
-    top:50%
   }
 }
 .positions .howto img{

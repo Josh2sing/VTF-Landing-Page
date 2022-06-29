@@ -62,7 +62,7 @@ button.addEventListener('click', function(){
     option1.innerText = 'Advanced'
     option2.innerText = 'Beginner'
     option2.style.transform = "translateX(-100px)";
-    where.innerHTML = 'Our Advanced Internships are for those looking to get the best education in the field of cybersecurity. Requirements include a Bachelor’s degree or above, advanced computer knowledge, English fluency, accountability and professionalism, the ability to create virtual machines, and an understanding of applications such as Slack, Discord, and GDrive. Upon completion, a tailored certificate will be given, along with a letter or reccomendation. There is also a 15 day probation period for the interns. An interview and college credit documentation is required.'
+    where.innerHTML = 'Advanced VTF internships are the best way for students to get a hands on, professional experience. Individual mentorships will be provided and larger projects give the students the opportunity and experience to gain a deeper understanding of their respective internship. An interview is also required.'
     buttonTrack.style.borderRadius = "0px 20px 20px 0px";
     changeBeginner()
   } else {
@@ -72,7 +72,7 @@ button.addEventListener('click', function(){
     option1.innerText = 'Beginner'
     option2.innerText = 'Advanced'
     option2.style.transform = "translateX(0px)";
-    where.innerHTML = 'Our beginner internships serve as a way for students to start their journey into the professional world of cybersecurity. Beginner Interns will be required to have a high school deploma or above, a computer with internet, and must understand english fundamentals. An interview is not required, and upon completion, a certificate will be given.'
+    where.innerHTML = "Beginner internships are student's introduction to the cybersecurity world. Students will be able to work at their own pace and will gain an understanding of basic cybersecurity concepts. Beginner internships are open to all."
     buttonTrack.style.borderRadius = "20px 0px 0px 20px";
     changeAdvanced()
   }
