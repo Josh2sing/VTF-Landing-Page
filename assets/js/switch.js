@@ -15,13 +15,14 @@ group1.push('Understanding of English Fundamentals')
 group1.push('Computer with internet connection')
 group1.push('High School Diploma+')
 group1.push('Flexible Hours')
+/*
 group1.push('Self Paced Projects')
 group1.push('Microsoft Cybersecurity Course')
 group1.push('Online Labs')
 group1.push('Minimum Growth in Network Visibility')
 group1.push('Certificate of Completion')
 group1.push('Understanding of basic concepts')
-
+*/
 group2.push('Slack/Discord/GDrive Knowledge')
 group2.push('Ability to create Virtual Machines')
 group2.push('Fluency in English')
@@ -41,6 +42,10 @@ function changeBeginner(){
     for(i = 0; i <= 10; i++){
         index = 'p' + (i + 1);
         document.getElementById(index).innerHTML = group2[i];
+        openBoxes();
+        document.getElementById('box2').removeAttribute('hidden')
+        document.getElementById('box3').removeAttribute('hidden')
+        document.getElementById('box4').removeAttribute('hidden')
     }
 }
 
@@ -51,6 +56,9 @@ function changeAdvanced(){
     for(i = 0; i < 10; i++){
         index = 'p' + (i + 1);
         document.getElementById(index).innerHTML = group1[i];
+        document.getElementById('box2').classList.remove('ease1');
+        document.getElementById('box3').classList.remove('ease2');
+        document.getElementById('box4').classList.remove('ease4');
     }
 }
 
