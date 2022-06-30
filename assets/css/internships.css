@@ -408,6 +408,7 @@ section, .container, .container-fluid {
   margin-bottom: 2rem;
   height: auto;
   font-family: 'Raleway';
+    scroll-margin-top: 120px;
 }
 .positions .PLACEHOLDER{
   display: none;
