@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display
 }
 @keyframes moveDown {
     0% /* (from) */ {
-      top: -40%;
+      top: -35%;
     }
     100% /* (to) */ {
       top: -10%;
@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display
   }
   @keyframes moveDown2 {
     0% /* (from) */ {
-      top: -81%;
+      top: -60%;
     }
     100% /* (to) */ {
       top: -20%;
@@ -631,7 +631,7 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display
 }
 @keyframes moveDown3 {
   0% /* (from) */ {
-    top: -110%;
+    top: -80%;
   }
   100% /* (to) */ {
     top: -30%;
