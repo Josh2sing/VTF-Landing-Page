@@ -440,6 +440,9 @@ section, .container, .container-fluid {
     height: 75px;
     margin-left:10%;
 }
+.positions .box .head p:last-child{
+  display: none;
+}
 .full{
     height: 100% !important;
 }
@@ -448,7 +451,7 @@ section, .container, .container-fluid {
   background-color:#3d6d9d;
   position:absolute;
   right: 0;
-  top:50%;
+  top:54%;
   z-index: 9;
   height: 5rem;
   justify-content: center;
@@ -486,7 +489,8 @@ section, .container, .container-fluid {
 }
 .positions .box .head{
   justify-content: space-evenly;
-  padding: 1rem;
+  align-items: center;
+  padding:.5 rem;
   display: flex;
   width: 90%;
   height: 100%;
@@ -495,6 +499,14 @@ section, .container, .container-fluid {
   border-width: 1px;
   border-top-style: solid;
 
+}
+.positions .remote-wrapper {
+  width: 100%;
+}
+.positions .remote-wrapper p{
+  color: #2F6292;
+  text-align: center;
+  margin-bottom: 0;
 }
 .positions .box .head::after{
     content:"";
@@ -516,10 +528,15 @@ section, .container, .container-fluid {
     background-color: black;
     color: white;
 }
-.positions .box div{
+.positions .box .title-wrapper{
+  height: 15px;
+}
+.positions .box .category-wrapper{
+  width: 100px;
+  height:15px
 }
 .positions .box .title-wrapper{
-  width:200px
+  width:200px;
 }
 .positions h4{
   margin-bottom: 1rem;
@@ -574,6 +591,16 @@ section, .container, .container-fluid {
 .footer{
   position: absolute;
   bottom: 0;
+}
+.cid-16 .text-center a{
+  padding:12px;
+  border-radius: 16px;
+  font-weight: bold;
+  transition:background-color 500ms
+}
+.cid-16 .text-center a:hover{
+  background-color: green;
+  
 }
 h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display-7, span, p, a {
   line-height: 1;
@@ -662,7 +689,6 @@ h1, h2, h3, h4, h5, h6, .display-1, .display-2, .display-4, .display-5, .display
   .icn-right{
     width: 30px;
     height: 58px;
-    padding-bottom: 15px;
     filter: opacity(60%);
   }
   .icn-right:hover{
