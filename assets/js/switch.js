@@ -22,47 +22,49 @@ group1.push('Minimum Growth in Network Visibility')
 group1.push('Certificate of Completion')
 group1.push('Understanding of basic concepts')
 
-group2.push('Slack/Discord/GDrive Knowledge')
-group2.push('Ability to create Virtual Machines')
-group2.push('Fluency in English')
-group2.push('Bachelors Degree+')
-group2.push('Advanced Level Projects')
-group2.push('Access to VTF Cloud')
-group2.push('Configure Servers and Firewalls')
-group2.push('Maximum Growth in Network Visibility')
-group2.push('Tailored Certificate of Completion')
-group2.push('Letter of Recommendation')
+group2.push('Time commitment 9-3p pacific Mon-Fri')
+group2.push('A stable internet and latest PC or laptop')
+group2.push('Existing knowledge of virtual machines, powershell, python etc')
+group2.push('College reference letter')
+group2.push('Access to private and public clouds')
+group2.push('Access to online labs')
+group2.push('Advance cybersecurity real-world projects')
+group2.push('Increase network visibility')
+group2.push('Earn certificate of completion')
+group2.push('Gain industry level professional experience')
 
 //go into box-container, change each nth value of p to group1[index]
 
 function changeBeginner(){
   document.getElementById("comp-1").innerHTML = "Advanced"
   document.getElementById("comparison-section").classList.add("ADV");
-    for(i = 0; i <= 10; i++){
-        index = 'p' + (i + 1);
-        document.getElementById(index).innerHTML = group2[i];
-        openBoxes();
-        document.getElementById('box2').removeAttribute('hidden')
-        document.getElementById('box3').removeAttribute('hidden')
-        document.getElementById('box4').removeAttribute('hidden')
+    for(i = 0; i < 10; i++)
+    {
+      index = 'p' + (i + 1);
+      document.getElementById(index).innerHTML = group2[i];
     }
+    openBoxes();
+  document.getElementById('box1').style.height = "290px"
+  document.getElementById('box2').removeAttribute('hidden')
+  document.getElementById('box3').removeAttribute('hidden')
 }
 
 function changeAdvanced(){
   document.getElementById("comp-1").innerHTML = "Beginner"
   document.getElementById("comparison-section").classList.remove("ADV");
 
-    for(i = 0; i < 10; i++){
+    for(i = 0; i < 4; i++){
         index = 'p' + (i + 1);
-        document.getElementById(index).innerHTML = group1[i];
-        document.getElementById('box2').classList.remove('ease1');
-        document.getElementById('box3').classList.remove('ease2');
-        document.getElementById('box4').classList.remove('ease4');
-        document.getElementById('box2').hidden = true
-        document.getElementById('box3').hidden = true
-        document.getElementById('box4').hidden = true
-        
+        document.getElementById(index).innerHTML = group1[i];        
       }
+      document.getElementById('box1').style.height = "255px"
+      document.getElementById('box4').style.backgroundColor = "#2F6292"
+    document.getElementById('box2').classList.remove('ease1');
+    document.getElementById('box3').classList.remove('ease2');
+    document.getElementById('box4').classList.remove('ease4');
+    document.getElementById('box2').hidden = true
+    document.getElementById('box3').hidden = true
+    //4BA4F4
 }
 
 button.addEventListener('click', function(){
@@ -73,7 +75,7 @@ button.addEventListener('click', function(){
     option1.innerText = 'Advanced'
     option2.innerText = 'Beginner'
     option2.style.transform = "translateX(-100px)";
-    where.innerHTML = 'Advanced VTF internships are the best way for students to get a hands on, professional experience. Individual mentorships will be provided and larger projects give the students the opportunity and experience to gain a deeper understanding of their respective internship. An interview is also required.'
+    where.innerHTML = 'Effort Is Both Costly and Valued. If you are self motivated, ready to commit the time 9a to 5p pacific between Mon to Fri, then advance internship at VTF can give you a real opportunity to allow you enhance your cybersecurity skills.'
     buttonTrack.style.borderRadius = "0px 20px 20px 0px";
     changeBeginner()
   } else {
@@ -83,7 +85,7 @@ button.addEventListener('click', function(){
     option1.innerText = 'Beginner'
     option2.innerText = 'Advanced'
     option2.style.transform = "translateX(0px)";
-    where.innerHTML = "Beginner internships are student's introduction to the cybersecurity world. Students will be able to work at their own pace and will gain an understanding of basic cybersecurity concepts. Beginner internships are open to all."
+    where.innerHTML = "Beginner internships at VTF is open to all level of skills with flexible hour commitment. Interns attending beginner internship at VTF gain real world industry experience while having the flexibility to work on during their own schedule. It is ideal for college students, transitioning professionals and even for those who are advancing cybersecurity career."
     buttonTrack.style.borderRadius = "20px 0px 0px 20px";
     changeAdvanced()
   }
