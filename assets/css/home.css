@@ -366,7 +366,7 @@ td {
     color: #fff;
     font-size: 16px;
     border: none;
-
+    width: auto;
 }
 
 .dropdown {
