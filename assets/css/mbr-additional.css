@@ -829,6 +829,40 @@ a {
     }
 }
 
+.cid-1 .dropbtn{
+    background-color: #5492d0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.cid-1 .navbar-brand .navbar-caption{
+    font-family: 'Raleway';
+}
+.cid-3{
+    padding-top: 6rem;
+}
+.display-2 {
+    background-color: white;
+}
+.cid-3 .mbr-section-head{
+    background-color: white;
+}
+.cid-3 .item-title{
+    font-family: 'Bellota Text';
+    font-size: 32px;
+    color: #3c5d9b;
+}
+.cid-3 .item-wrapper{
+    background: rgb(246, 246, 246);
+    box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.37);
+-webkit-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.37);
+-moz-box-shadow: 1px 1px 9px -1px rgba(0,0,0,0.37);
+}
+.cid-3 .item-content{
+    height: 100%;
+}
+
 .cid-1 .navbar {
     min-height: 140px;
     transition: all .3s;
@@ -1312,7 +1346,6 @@ a {
     }
 }
 .cid-3{
-    padding: 1rem;
 }
 #edu_img{
     padding-top:15px;
