@@ -580,7 +580,10 @@ nav .mbr-section-btn {
     }
 
     .menu .navbar-collapse.show {
-        overflow: auto
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 }
 
